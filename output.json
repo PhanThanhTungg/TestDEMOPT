@@ -1,0 +1,2522 @@
+[
+  {
+    "id": 1,
+    "question": "Theo định nghĩa được thống nhất trong giáo trình, hệ thống phân tán là gì?",
+    "a": "Là hệ thống mà các thành phần chia sẻ bộ nhớ chung để trao đổi thông tin.",
+    "b": "Là một hệ điều hành duy nhất quản lý nhiều máy tính.",
+    "c": "Là hệ thống các phần mềm cài đặt trên các máy tính độc lập nhưng được phối hợp hoạt động với nhau như một thể thống nhất.",
+    "d": "Là một tập hợp các máy tính mạnh được kết nối mạng tốc độ cao.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 2,
+    "question": "Đâu là một trong những đặc điểm quan trọng của hệ thống phân tán được nêu trong giáo trình?",
+    "a": "Các tiến trình chia sẻ bộ nhớ chung để tăng hiệu năng.",
+    "b": "Các thành phần không có đồng hồ chung cho toàn bộ hệ thống.",
+    "c": "Truyền thông giữa các thành phần luôn được đảm bảo an toàn tuyệt đối.",
+    "d": "Tất cả các máy tính phải có cùng cấu hình phần cứng.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 3,
+    "question": "Hệ điều hành phân tán (Distributed OS) thường được sử dụng cho loại hệ thống nào?",
+    "a": "Các hệ thống máy tính cá nhân hoạt động độc lập.",
+    "b": "Các hệ thống đồng nhất, liên kết chặt chẽ với nhau, ví dụ như cụm máy chủ.",
+    "c": "Các thiết bị di động trong mạng không dây.",
+    "d": "Các hệ thống không đồng nhất, liên kết lỏng lẻo.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 4,
+    "question": "Mục tiêu nào của hệ thống phân tán nhằm che giấu sự thật rằng các tài nguyên được phân bố trên nhiều máy tính khác nhau?",
+    "a": "Tính mở (Openness).",
+    "b": "Tính sẵn sàng (Availability).",
+    "c": "Tính trong suốt (Transparency).",
+    "d": "Tính chịu lỗi (Fault Tolerance).",
+    "correct_answer": "C"
+  },
+  {
+    "id": 5,
+    "question": "Trong phân loại của tính trong suốt, \"Trong suốt về vị trí\" (Location transparency) có ý nghĩa gì?",
+    "a": "Che giấu nơi đặt tài nguyên của hệ thống.",
+    "b": "Che giấu việc tài nguyên được nhân bản.",
+    "c": "Che giấu việc tài nguyên có thể di chuyển sang vị trí khác.",
+    "d": "Che giấu sự khác biệt trong cách thể hiện dữ liệu.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 6,
+    "question": "Theo giáo trình, một hệ thống được coi là có khả năng mở rộng (Scalability) khi nó đáp ứng được tiêu chí nào?",
+    "a": "Chỉ cần mở rộng phạm vi địa lý mà không cần đầu tư thêm phần cứng.",
+    "b": "Tăng số lượng người sử dụng, mở rộng phạm vi địa lý và khả năng quản trị.",
+    "c": "Chỉ cần có khả năng quản trị dễ dàng bởi một quản trị viên.",
+    "d": "Chỉ cần tăng số lượng người sử dụng mà không cần thay đổi phần mềm.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 7,
+    "question": "Đâu là một trong những kỹ thuật được sử dụng để xử lý vấn đề hiệu năng trong các hệ thống quy mô lớn?",
+    "a": "Luôn sử dụng truyền thông đồng bộ để đảm bảo tin cậy.",
+    "b": "Luôn sử dụng các dịch vụ và dữ liệu tập trung để dễ quản lý.",
+    "c": "Sử dụng các giải thuật tập trung để tối ưu hóa đường đi.",
+    "d": "Che giấu trễ truyền thông bằng cách sử dụng truyền thông không đồng bộ.",
+    "correct_answer": "D"
+  },
+  {
+    "id": 8,
+    "question": "Kiến trúc hệ thống phân tán nào mà trong đó tất cả các thành viên đều có vai trò ngang nhau?",
+    "a": "Kiến trúc khách/chủ (Client-Server).",
+    "b": "Kiến trúc lai ghép (Hybrid).",
+    "c": "Kiến trúc phân cấp (Hierarchical).",
+    "d": "Kiến trúc ngang hàng (Peer-to-peer).",
+    "correct_answer": "D"
+  },
+  {
+    "id": 9,
+    "question": "Mô hình hệ thống phân tán nào mà các chức năng được chia thành các tầng riêng biệt, tầng dưới cung cấp dịch vụ cho tầng trên?",
+    "a": "Mô hình kênh sự kiện (Event bus model).",
+    "b": "Mô hình đối tượng phân tán (Distributed object model).",
+    "c": "Mô hình phân tầng (Layered model).",
+    "d": "Mô hình dữ liệu tập trung (Centralized data model).",
+    "correct_answer": "C"
+  },
+  {
+    "id": 10,
+    "question": "Trong các hệ thống điện toán phân tán, hệ thống nào được xây dựng trên nền tảng các máy tính tương tự nhau và kết nối qua mạng cục bộ tốc độ cao?",
+    "a": "Hệ thống lan tỏa phân tán (Pervasive system).",
+    "b": "Hệ thống điện toán cụm (Cluster computing).",
+    "c": "Điện toán đám mây (Cloud computing).",
+    "d": "Hệ thống điện toán lưới (Grid computing).",
+    "correct_answer": "B"
+  },
+  {
+    "id": 11,
+    "question": "Việc che giấu lỗi và vấn đề phục hồi sau khi lỗi xảy ra thuộc loại trong suốt nào?",
+    "a": "Trong suốt về nhân bản (Replication transparency).",
+    "b": "Trong suốt về tương tranh (Concurrency transparency).",
+    "c": "Trong suốt về di trú (Migration transparency).",
+    "d": "Trong suốt về lỗi (Failure transparency).",
+    "correct_answer": "D"
+  },
+  {
+    "id": 12,
+    "question": "So với hệ thống nhiều bộ vi xử lý (multiprocessor), hệ thống nhiều máy tính (multicomputer) có nhược điểm cơ bản nào?",
+    "a": "Giá thành đầu tư cao hơn.",
+    "b": "Tốc độ trao đổi thông tin chậm hơn và thời gian trễ lớn hơn.",
+    "c": "Không đảm bảo được tính riêng tư của dữ liệu.",
+    "d": "Khó mở rộng về không gian lưu trữ dữ liệu.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 13,
+    "question": "Phần mềm trung gian (Middleware) trong hệ thống phân tán thường nằm ở đâu?",
+    "a": "Được tích hợp trực tiếp vào phần cứng.",
+    "b": "Nằm giữa tầng mạng và tầng vận tải.",
+    "c": "Nằm giữa tầng vận tải và tầng ứng dụng.",
+    "d": "Là một phần của lõi hệ điều hành.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 14,
+    "question": "Mạng địa chỉ nội dung (Content Addressable Network - CAN) là một giải pháp cho kiến trúc nào?",
+    "a": "Kiến trúc ngang hàng phi cấu trúc.",
+    "b": "Kiến trúc ngang hàng có cấu trúc.",
+    "c": "Kiến trúc phân cấp.",
+    "d": "Kiến trúc khách/chủ.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 15,
+    "question": "Trong mô hình ba tầng phổ biến, tầng nào chịu trách nhiệm thực hiện các chức năng tính toán và nghiệp vụ của hệ thống?",
+    "a": "Tầng dữ liệu (Data layer).",
+    "b": "Tầng xử lý nghiệp vụ (Processing layer).",
+    "c": "Tầng giao diện người dùng (User-interface layer).",
+    "d": "Tầng mạng (Network layer).",
+    "correct_answer": "B"
+  },
+  {
+    "id": 16,
+    "question": "Giao thức nào thuộc tầng vận tải trong mô hình OSI?",
+    "a": "TCP",
+    "b": "HTTP",
+    "c": "IP",
+    "d": "Ethernet",
+    "correct_answer": "A"
+  },
+  {
+    "id": 17,
+    "question": "Đặc điểm chính của chuyển thông điệp bền bỉ là gì?",
+    "a": "Thông điệp được lưu trữ tạm thời",
+    "b": "Thông điệp được lưu trữ lâu dài",
+    "c": "Thông điệp không được lưu trữ",
+    "d": "Thông điệp chỉ được gửi một lần",
+    "correct_answer": "B"
+  },
+  {
+    "id": 18,
+    "question": "Trong gọi thủ tục từ xa (RPC), stub là gì?",
+    "a": "Một loại giao thức mạng",
+    "b": "Một thiết bị mạng",
+    "c": "Đoạn mã thay thế cho thủ tục từ xa",
+    "d": "Một hệ điều hành",
+    "correct_answer": "C"
+  },
+  {
+    "id": 19,
+    "question": "Vấn đề chính khi truyền tham số trong RPC giữa các hệ thống không đồng nhất là gì?",
+    "a": "Tốc độ mạng chậm",
+    "b": "Thiếu băng thông",
+    "c": "Lỗi phần cứng",
+    "d": "Khác biệt về cách biểu diễn dữ liệu",
+    "correct_answer": "D"
+  },
+  {
+    "id": 20,
+    "question": "Truyền thông luồng chủ yếu được sử dụng cho loại dữ liệu nào?",
+    "a": "Dữ liệu đa phương tiện",
+    "b": "Văn bản",
+    "c": "Số liệu",
+    "d": "Mã nguồn",
+    "correct_answer": "A"
+  },
+  {
+    "id": 21,
+    "question": "QoS (Quality of Service) trong truyền thông luồng đề cập đến điều gì?",
+    "a": "Tốc độ CPU",
+    "b": "Chất lượng dịch vụ mạng",
+    "c": "Dung lượng ổ cứng",
+    "d": "Số lượng người dùng",
+    "correct_answer": "B"
+  },
+  {
+    "id": 22,
+    "question": "Đồng bộ luồng trong truyền thông đa phương tiện có mục đích gì?",
+    "a": "Tăng tốc độ truyền",
+    "b": "Giảm dung lượng",
+    "c": "Mã hóa dữ liệu",
+    "d": "Đảm bảo các luồng được phát đồng thời",
+    "correct_answer": "D"
+  },
+  {
+    "id": 23,
+    "question": "Truyền thông theo nhóm (multicast) khác với unicast ở điểm nào?",
+    "a": "Gửi đến một địa chỉ duy nhất",
+    "b": "Gửi đến nhiều địa chỉ cùng lúc",
+    "c": "Chỉ gửi trong mạng LAN",
+    "d": "Không cần địa chỉ IP",
+    "correct_answer": "B"
+  },
+  {
+    "id": 24,
+    "question": "Mạng phủ (overlay network) trong truyền thông nhóm là gì?",
+    "a": "Mạng vật lý",
+    "b": "Mạng không dây",
+    "c": "Mạng logic được xây dựng trên mạng vật lý",
+    "d": "Mạng cáp quang",
+    "correct_answer": "C"
+  },
+  {
+    "id": 25,
+    "question": "Tổ chức hình cây trong quảng bá nhóm có ưu điểm gì?",
+    "a": "Đơn giản nhất",
+    "b": "Hiệu quả về băng thông",
+    "c": "Bảo mật cao nhất",
+    "d": "Tốc độ nhanh nhất",
+    "correct_answer": "B"
+  },
+  {
+    "id": 26,
+    "question": "Lan truyền ngẫu nhiên (epidemic spreading) hoạt động theo nguyên tắc nào?",
+    "a": "Gửi theo thứ tự",
+    "b": "Gửi theo lịch trình",
+    "c": "Gửi theo địa chỉ IP",
+    "d": "Gửi ngẫu nhiên đến các nút",
+    "correct_answer": "D"
+  },
+  {
+    "id": 27,
+    "question": "Giao thức tầng cao trong mô hình mạng thường xử lý vấn đề gì?",
+    "a": "Truyền bit",
+    "b": "Định tuyến",
+    "c": "Ứng dụng cụ thể",
+    "d": "Kiểm soát lỗi vật lý",
+    "correct_answer": "C"
+  },
+  {
+    "id": 28,
+    "question": "Phương pháp gọi thủ tục từ xa nào cho phép máy khách tiếp tục xử lý mà không chờ kết quả?",
+    "a": "Gọi đồng bộ",
+    "b": "Gọi không đồng bộ",
+    "c": "Gọi có điều kiện",
+    "d": "Gọi định kỳ",
+    "correct_answer": "B"
+  },
+  {
+    "id": 29,
+    "question": "Trong truyền thông điểm-điểm, mỗi thông điệp được gửi giữa bao nhiêu bên?",
+    "a": "Một bên",
+    "b": "Hai bên",
+    "c": "Nhiều bên",
+    "d": "Tất cả các bên",
+    "correct_answer": "B"
+  },
+  {
+    "id": 30,
+    "question": "Buffer trong truyền thông đa phương tiện có tác dụng gì?",
+    "a": "Mã hóa dữ liệu",
+    "b": "Nén dữ liệu",
+    "c": "Kiểm tra lỗi",
+    "d": "Lưu trữ tạm thời để xử lý độ trễ",
+    "correct_answer": "D"
+  },
+  {
+    "id": 31,
+    "question": "Giao diện truyền thông điệp cung cấp các hàm nguyên thủy nào cơ bản?",
+    "a": "Send và Receive",
+    "b": "Open và Close",
+    "c": "Read và Write",
+    "d": "Start và Stop",
+    "correct_answer": "A"
+  },
+  {
+    "id": 32,
+    "question": "Trong mô hình hàng đợi thông điệp, thông điệp được lưu trữ ở đâu?",
+    "a": "Trong bộ nhớ RAM",
+    "b": "Trong hàng đợi trung gian",
+    "c": "Trong ổ cứng",
+    "d": "Trong cache",
+    "correct_answer": "B"
+  },
+  {
+    "id": 33,
+    "question": "Ngăn xếp (stack) trong gọi thủ tục cục bộ được sử dụng để làm gì?",
+    "a": "Lưu trữ dữ liệu",
+    "b": "Xử lý lỗi",
+    "c": "Kiểm soát truy cập",
+    "d": "Lưu trữ tham số và địa chỉ trả về",
+    "correct_answer": "D"
+  },
+  {
+    "id": 34,
+    "question": "Marshalling trong RPC là quá trình gì?",
+    "a": "Giải mã dữ liệu",
+    "b": "Truyền dữ liệu",
+    "c": "Kiểm tra lỗi",
+    "d": "Đóng gói tham số thành thông điệp",
+    "correct_answer": "D"
+  },
+  {
+    "id": 35,
+    "question": "Kiến trúc hệ thống truyền thông đa phương tiện thường bao gồm mấy thành phần chính?",
+    "a": "2 thành phần",
+    "b": "3 thành phần",
+    "c": "4 thành phần",
+    "d": "5 thành phần",
+    "correct_answer": "B"
+  },
+  {
+    "id": 36,
+    "question": "Theo giáo trình, sự khác biệt cơ bản giữa \"định danh\" (identifier) và \"địa chỉ\" (address) của một thực thể là gì?",
+    "a": "Một thực thể có nhiều định danh nhưng chỉ có một địa chỉ duy nhất.",
+    "b": "Định danh được dùng để xác định vị trí, còn địa chỉ dùng để xác định tính duy nhất.",
+    "c": "Định danh và địa chỉ là hai tên gọi khác nhau cho cùng một khái niệm.",
+    "d": "Một thực thể chỉ có một định danh duy nhất, nhưng có thể có nhiều địa chỉ và địa chỉ có thể thay đổi.",
+    "correct_answer": "D"
+  },
+  {
+    "id": 37,
+    "question": "Trong các giải pháp đặt tên phi cấu trúc, phương pháp nào dựa trên nguyên tắc một thực thể khi di chuyển sẽ để lại thông tin tham chiếu đến vị trí mới?",
+    "a": "Quảng bá (Broadcasting)",
+    "b": "Con trỏ chuyển tiếp (Forwarding pointers)",
+    "c": "Dựa trên nguồn gốc (Home-based)",
+    "d": "Bảng băm phân tán (DHT)",
+    "correct_answer": "B"
+  },
+  {
+    "id": 38,
+    "question": "Mạng Chord là một ví dụ điển hình cho giải pháp tìm kiếm nào?",
+    "a": "Tìm kiếm phân cấp.",
+    "b": "Tìm kiếm bằng con trỏ chuyển tiếp.",
+    "c": "Tìm kiếm dựa trên bảng băm phân tán (DHT).",
+    "d": "Tìm kiếm dựa trên nguồn gốc.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 39,
+    "question": "Trong hệ thống tên miền (DNS), cơ chế phân giải nào mà trong đó máy chủ tên miền sẽ tự liên hệ với các máy chủ khác để tìm ra câu trả lời cuối cùng và trả về cho máy khách?",
+    "a": "Phân giải quảng bá (Broadcast resolution).",
+    "b": "Phân giải tương tác (Iterative resolution).",
+    "c": "Phân giải trực tiếp (Direct resolution).",
+    "d": "Phân giải đệ quy (Recursive resolution).",
+    "correct_answer": "D"
+  },
+  {
+    "id": 40,
+    "question": "Dịch vụ thư mục (Directory Service) như LDAP là một ví dụ của loại hình đặt tên nào?",
+    "a": "Đặt tên phi cấu trúc.",
+    "b": "Đặt tên dựa trên thuộc tính.",
+    "c": "Đặt tên có cấu trúc.",
+    "d": "Đặt tên dựa trên vị trí.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 41,
+    "question": "Một \"không gian tên\" (name space) trong hệ thống phân tán thường được biểu diễn dưới dạng nào?",
+    "a": "Một danh sách liên kết đơn.",
+    "b": "Một mảng hai chiều.",
+    "c": "Một đồ thị có hướng (directed graph).",
+    "d": "Một hàng đợi ưu tiên.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 42,
+    "question": "Quá trình tra cứu thông tin của một thực thể dựa trên đường dẫn của tên được gọi là gì?",
+    "a": "Phân giải tên (Name resolution).",
+    "b": "Gắn kết tên (Name mounting).",
+    "c": "Đóng gói tên (Name encapsulation).",
+    "d": "Định danh tên (Name identification).",
+    "correct_answer": "A"
+  },
+  {
+    "id": 43,
+    "question": "Giải pháp nào sử dụng một máy chủ trung tâm (gọi là nguồn gốc - home location) để theo dõi vị trí hiện tại của các thực thể di động?",
+    "a": "Giải pháp dựa trên nguồn gốc (Home-based approach).",
+    "b": "Giải pháp phân cấp.",
+    "c": "Giải pháp con trỏ chuyển tiếp.",
+    "d": "Giải pháp quảng bá.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 44,
+    "question": "Trong kiến trúc phân cấp của dịch vụ đặt tên, nút nào lưu trữ địa chỉ hiện tại của một thực thể?",
+    "a": "Nút gốc (root node).",
+    "b": "Nút thư mục (directory node).",
+    "c": "Nút lá (leaf node).",
+    "d": "Tất cả các nút đều lưu trữ địa chỉ.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 45,
+    "question": "Trong DNS, khi máy khách tự mình lần lượt gửi yêu cầu đến từng cấp máy chủ tên miền (gốc, .vn, .edu.vn,...) để tìm địa chỉ IP, đó là kiểu phân giải nào?",
+    "a": "Phân giải đệ quy.",
+    "b": "Phân giải tương tác.",
+    "c": "Phân giải hỗn hợp.",
+    "d": "Phân giải ngang hàng.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 46,
+    "question": "\"Bí danh\" (alias) trong một không gian tên có thể được triển khai bằng cách nào?",
+    "a": "Cho phép nhiều đường dẫn tuyệt đối tham chiếu đến cùng một nút.",
+    "b": "Chỉ cho phép một đường dẫn duy nhất cho mỗi nút.",
+    "c": "Xóa nút cũ và tạo một nút mới với tên khác.",
+    "d": "Luôn yêu cầu tạo một bản sao của thực thể.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 47,
+    "question": "Ngôn ngữ truy nhập thư mục hạng nhẹ (LDAP) là giao thức được sử dụng phổ biến cho dịch vụ nào?",
+    "a": "Dịch vụ đặt tên phi cấu trúc.",
+    "b": "Dịch vụ thư mục dựa trên thuộc tính.",
+    "c": "Dịch vụ đồng bộ đồng hồ.",
+    "d": "Dịch vụ truyền tập tin.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 48,
+    "question": "Trong hệ thống tên miền trên Internet, tên miền cấp cao nhất (root domain) được ký hiệu như thế nào?",
+    "a": "Bằng một dấu chấm (.).",
+    "b": "Bằng ký tự @.",
+    "c": "Bằng từ \"root\".",
+    "d": "Không có ký hiệu cụ thể.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 49,
+    "question": "Trong kiến trúc phân cấp của không gian tên, việc kết hợp một không gian tên này vào một không gian tên khác được gọi là gì?",
+    "a": "Gắn kết (Mounting).",
+    "b": "Phân giải (Resolving).",
+    "c": "Liên kết (Linking).",
+    "d": "Sao chép (Copying).",
+    "correct_answer": "A"
+  },
+  {
+    "id": 50,
+    "question": "Mục đích chính của việc phân lớp không gian tên thành các lớp toàn cầu, quản trị và quản lý là gì?",
+    "a": "Để đơn giản hóa việc đặt tên cho người dùng.",
+    "b": "Để tổ chức hiệu quả và đáp ứng các yêu cầu khác nhau về hiệu năng và tính sẵn sàng.",
+    "c": "Để tăng cường bảo mật cho các tên miền.",
+    "d": "Để giảm số lượng máy chủ cần thiết.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 51,
+    "question": "Trong mạng Chord, hàm succ(k) được sử dụng để làm gì?",
+    "a": "Tìm nút liền trước nút có định danh k.",
+    "b": "Tìm nút liền sau chịu trách nhiệm cho khóa k.",
+    "c": "Xóa một thực thể có khóa k.",
+    "d": "Tạo một khóa mới k.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 52,
+    "question": "Tên có cấu trúc (Structured Name) khác tên phi cấu trúc (Flat Name) ở điểm nào?",
+    "a": "Tên có cấu trúc không thể thay đổi, còn tên phi cấu trúc thì có thể.",
+    "b": "Tên có cấu trúc được tạo từ các thành phần đơn giản hơn, còn tên phi cấu trúc chỉ là chuỗi bit ngẫu nhiên.",
+    "c": "Tên có cấu trúc chỉ dành cho máy tính, còn tên phi cấu trúc dành cho con người.",
+    "d": "Tên có cấu trúc luôn ngắn hơn tên phi cấu trúc.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 53,
+    "question": "Trong LDAP, một bản ghi (entry) bao gồm một tập hợp của các cặp nào?",
+    "a": "{khóa, bí mật}",
+    "b": "{tên, địa chỉ}",
+    "c": "{đối tượng, phương thức}",
+    "d": "{thuộc tính, giá trị}",
+    "correct_answer": "D"
+  },
+  {
+    "id": 54,
+    "question": "Khi một thực thể di chuyển, giải pháp \"con trỏ chuyển tiếp\" có thể dẫn đến nhược điểm gì nếu chuỗi con trỏ quá dài?",
+    "a": "Hiệu năng thấp và nguy cơ đứt đường truyền.",
+    "b": "Tiêu tốn nhiều không gian lưu trữ trên máy khách.",
+    "c": "Gây ra xung đột tên miền.",
+    "d": "Không thể áp dụng cho mạng không dây.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 55,
+    "question": "Trong hệ thống tập tin kiểu Unix, thành phần nào mô tả cấu trúc của hệ thống tập tin và chứa thông tin về các khối dữ liệu?",
+    "a": "Khối khởi động (boot block).",
+    "b": "Siêu khối (superblock).",
+    "c": "Nút chỉ mục (inode).",
+    "d": "Khối dữ liệu (data block).",
+    "correct_answer": "B"
+  },
+  {
+    "id": 56,
+    "question": "\"Cơ chế đóng\" (closure mechanism) trong phân giải tên có nghĩa là gì?",
+    "a": "Quá trình phân giải tên phải biết bắt đầu từ một nút nào đó trong không gian tên.",
+    "b": "Quá trình phân giải tên phải kết thúc ở nút lá.",
+    "c": "Quá trình phân giải tên phải được mã hóa.",
+    "d": "Quá trình phân giải tên không được phép lặp lại.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 57,
+    "question": "Tên toàn cục (global name) và tên cục bộ (local name) khác nhau ở điểm nào?",
+    "a": "Tên toàn cục biểu thị cùng một thực thể trong toàn hệ thống, còn tên cục bộ phụ thuộc vào nơi sử dụng.",
+    "b": "Tên toàn cục do máy chủ cấp, tên cục bộ do người dùng tự đặt.",
+    "c": "Tên toàn cục luôn dài hơn tên cục bộ.",
+    "d": "Tên toàn cục dùng cho file, tên cục bộ dùng cho thư mục.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 58,
+    "question": "Trong kiến trúc ngang hàng, phương pháp \"đường cong lấp đầy không gian\" (space-filling curve) được dùng để giải quyết vấn đề gì?",
+    "a": "Lập chỉ mục và tìm kiếm các thực thể dựa trên nhiều thuộc tính một cách hiệu quả.",
+    "b": "Đảm bảo tính duy nhất cho các định danh phi cấu trúc.",
+    "c": "Đồng bộ hóa thời gian giữa các nút.",
+    "d": "Bầu chọn một nút làm điều phối viên.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 59,
+    "question": "Đại lý hệ thống thư mục (Directory System Agent - DSA) là một máy chủ trong hệ thống nào?",
+    "a": "Hệ thống tên miền (DNS).",
+    "b": "Hệ thống dựa trên con trỏ chuyển tiếp.",
+    "c": "Hệ thống thư mục phân tán như X.500/LDAP.",
+    "d": "Hệ thống tập tin mạng (NFS).",
+    "correct_answer": "C"
+  },
+  {
+    "id": 60,
+    "question": "Khi một máy khách cần phân giải tên miền, nó thường gửi yêu cầu đến đâu đầu tiên?",
+    "a": "Máy chủ tên miền gốc (root server).",
+    "b": "Máy chủ tên miền cấp cao nhất (TLD server).",
+    "c": "Máy chủ tên miền mặc định (default DNS server) đã được cấu hình.",
+    "d": "Máy chủ có thẩm quyền (authoritative server) của tên miền đó.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 61,
+    "question": "Giải thuật Cristian được sử dụng để làm gì?",
+    "a": "Bầu chọn leader",
+    "b": "Đồng bộ đồng hồ vật lý",
+    "c": "Loại trừ tương hỗ",
+    "d": "Định vị nút",
+    "correct_answer": "B"
+  },
+  {
+    "id": 62,
+    "question": "Trong giải thuật Berkeley, vai trò của máy chủ thời gian là gì?",
+    "a": "Thu thập thời gian từ các máy khách và tính thời gian trung bình",
+    "b": "Cung cấp thời gian chuẩn",
+    "c": "Đồng bộ với GPS",
+    "d": "Kiểm tra lỗi đồng hồ",
+    "correct_answer": "A"
+  },
+  {
+    "id": 63,
+    "question": "Đồng hồ Lamport được sử dụng để giải quyết vấn đề gì?",
+    "a": "Đồng bộ thời gian vật lý",
+    "b": "Sắp xếp thứ tự sự kiện logic",
+    "c": "Phát hiện lỗi mạng",
+    "d": "Cân bằng tải",
+    "correct_answer": "B"
+  },
+  {
+    "id": 64,
+    "question": "Trong đồng hồ vector, mỗi tiến trình duy trì gì?",
+    "a": "Một số nguyên",
+    "b": "Một vector chứa thời gian logic của tất cả tiến trình",
+    "c": "Thời gian vật lý",
+    "d": "Danh sách hàng xóm",
+    "correct_answer": "B"
+  },
+  {
+    "id": 65,
+    "question": "Trạng thái toàn cục nhất quán là gì?",
+    "a": "Trạng thái khi tất cả tiến trình có cùng thời gian",
+    "b": "Trạng thái có thể xảy ra trong thực tế",
+    "c": "Trạng thái khi không có thông điệp đang truyền",
+    "d": "Trạng thái lỗi của hệ thống",
+    "correct_answer": "B"
+  },
+  {
+    "id": 66,
+    "question": "Giải thuật loại trừ tương hỗ tập trung có nhược điểm gì?",
+    "a": "Phức tạp trong cài đặt",
+    "b": "Điểm lỗi đơn",
+    "c": "Tốn nhiều thông điệp",
+    "d": "Không đảm bảo công bằng",
+    "correct_answer": "B"
+  },
+  {
+    "id": 67,
+    "question": "Trong giải thuật loại trừ tương hỗ không tập trung, quyết định được đưa ra như thế nào?",
+    "a": "Bởi máy chủ trung tâm",
+    "b": "Bởi đa số các nút",
+    "c": "Bởi nút có ID nhỏ nhất",
+    "d": "Bởi nút được bầu chọn",
+    "correct_answer": "B"
+  },
+  {
+    "id": 68,
+    "question": "Giải thuật thẻ bài hoạt động theo nguyên tắc nào?",
+    "a": "Chuyển thẻ theo vòng tròn",
+    "b": "Gửi yêu cầu đến tất cả nút",
+    "c": "Bầu chọn leader",
+    "d": "Sử dụng nhãn thời gian",
+    "correct_answer": "A"
+  },
+  {
+    "id": 69,
+    "question": "Giải thuật bầu chọn nổi bọt được sử dụng khi nào?",
+    "a": "Khi có nút mới tham gia",
+    "b": "Khi phát hiện leader bị lỗi",
+    "c": "Khi cần cân bằng tải",
+    "d": "Khi khởi động hệ thống",
+    "correct_answer": "B"
+  },
+  {
+    "id": 70,
+    "question": "Trong giải thuật bầu chọn vòng, thông điệp ELECTION được gửi theo hướng nào?",
+    "a": "Ngẫu nhiên",
+    "b": "Theo chiều kim đồng hồ",
+    "c": "Đến tất cả nút",
+    "d": "Đến nút có ID cao nhất",
+    "correct_answer": "B"
+  },
+  {
+    "id": 71,
+    "question": "Hệ thống định vị được sử dụng để làm gì?",
+    "a": "Xác định vị trí địa lý của nút",
+    "b": "Định vị tài nguyên trong hệ thống",
+    "c": "Tìm kiếm dữ liệu",
+    "d": "Phát hiện lỗi mạng",
+    "correct_answer": "B"
+  },
+  {
+    "id": 72,
+    "question": "Độ chính xác đồng bộ thời gian trong mạng cục bộ có thể đạt được là bao nhiêu?",
+    "a": "Vài giây",
+    "b": "Vài mili giây",
+    "c": "Vài micro giây",
+    "d": "Vài nano giây",
+    "correct_answer": "C"
+  },
+  {
+    "id": 73,
+    "question": "Giải thuật trung bình trong đồng bộ thời gian có ưu điểm gì?",
+    "a": "Đơn giản",
+    "b": "Không cần máy chủ trung tâm",
+    "c": "Độ chính xác cao",
+    "d": "Tiết kiệm băng thông",
+    "correct_answer": "B"
+  },
+  {
+    "id": 74,
+    "question": "Giải thuật tham chiếu quảng bá sử dụng phương pháp nào?",
+    "a": "Gửi thời gian đến từng nút",
+    "b": "Quảng bá thời gian đến tất cả nút",
+    "c": "Đồng bộ với máy chủ NTP",
+    "d": "Sử dụng GPS",
+    "correct_answer": "B"
+  },
+  {
+    "id": 75,
+    "question": "Quan hệ \"happens-before\" trong đồng hồ Lamport thể hiện điều gì?",
+    "a": "Thời gian vật lý",
+    "b": "Thứ tự nhân quả giữa các sự kiện",
+    "c": "Khoảng cách địa lý",
+    "d": "Tốc độ xử lý",
+    "correct_answer": "B"
+  },
+  {
+    "id": 76,
+    "question": "Lát cắt (cut) trong hệ thống phân tán là gì?",
+    "a": "Phân vùng mạng",
+    "b": "Tập hợp các sự kiện tại một thời điểm",
+    "c": "Lỗi truyền thông",
+    "d": "Điểm kiểm tra",
+    "correct_answer": "B"
+  },
+  {
+    "id": 77,
+    "question": "Giải thuật loại trừ tương hỗ phân tán sử dụng nguyên tắc gì?",
+    "a": "Bầu chọn",
+    "b": "Nhãn thời gian",
+    "c": "Máy chủ trung tâm",
+    "d": "Thẻ bài",
+    "correct_answer": "B"
+  },
+  {
+    "id": 78,
+    "question": "Vấn đề chính của giải thuật thẻ bài là gì?",
+    "a": "Phức tạp",
+    "b": "Mất thẻ khi có lỗi",
+    "c": "Tốn nhiều thông điệp",
+    "d": "Không công bằng",
+    "correct_answer": "B"
+  },
+  {
+    "id": 79,
+    "question": "Trong bầu chọn môi trường không dây, vấn đề chính là gì?",
+    "a": "Băng thông thấp",
+    "b": "Mất kết nối tạm thời",
+    "c": "Độ trễ cao",
+    "d": "Nhiễu tín hiệu",
+    "correct_answer": "B"
+  },
+  {
+    "id": 80,
+    "question": "Bầu chọn trong hệ thống quy mô lớn thường sử dụng phương pháp nào?",
+    "a": "Tập trung",
+    "b": "Phân cấp",
+    "c": "Ngẫu nhiên",
+    "d": "Định kỳ",
+    "correct_answer": "B"
+  },
+  {
+    "id": 81,
+    "question": "Thời gian nguyên tử quốc tế (TAI) dựa trên gì?",
+    "a": "Chuyển động của Trái Đất",
+    "b": "Dao động của nguyên tử Cesium",
+    "c": "Vị trí của Mặt Trời",
+    "d": "Tín hiệu GPS",
+    "correct_answer": "B"
+  },
+  {
+    "id": 82,
+    "question": "UTC (Coordinated Universal Time) khác TAI như thế nào?",
+    "a": "Chậm hơn vài giây",
+    "b": "Có thêm giây nhuận",
+    "c": "Nhanh hơn vài giây",
+    "d": "Hoàn toàn giống nhau",
+    "correct_answer": "B"
+  },
+  {
+    "id": 83,
+    "question": "Trong giải thuật Cristian, làm thế nào để ước tính độ trễ mạng?",
+    "a": "Đo thời gian khứ hồi và chia đôi",
+    "b": "Sử dụng giá trị cố định",
+    "c": "Tính toán dựa trên khoảng cách",
+    "d": "Không cần ước tính",
+    "correct_answer": "A"
+  },
+  {
+    "id": 84,
+    "question": "Đồng hồ logic được đề xuất bởi ai?",
+    "a": "Berkeley",
+    "b": "Cristian",
+    "c": "Lamport",
+    "d": "Vector",
+    "correct_answer": "C"
+  },
+  {
+    "id": 85,
+    "question": "Khi nào cần cập nhật đồng hồ vector?",
+    "a": "Chỉ khi gửi thông điệp",
+    "b": "Chỉ khi nhận thông điệp",
+    "c": "Khi gửi hoặc nhận thông điệp",
+    "d": "Định kỳ theo thời gian",
+    "correct_answer": "C"
+  },
+  {
+    "id": 86,
+    "question": "Giải thuật loại trừ tương hỗ nào đảm bảo tính công bằng tốt nhất?",
+    "a": "Tập trung",
+    "b": "Không tập trung",
+    "c": "Phân tán",
+    "d": "Thẻ bài",
+    "correct_answer": "D"
+  },
+  {
+    "id": 87,
+    "question": "Trong giải thuật bầu chọn, ID của nút thường được sử dụng để làm gì?",
+    "a": "Xác định vị trí",
+    "b": "Quyết định ưu tiên",
+    "c": "Mã hóa thông điệp",
+    "d": "Định tuyến",
+    "correct_answer": "B"
+  },
+  {
+    "id": 88,
+    "question": "Vấn đề split-brain trong bầu chọn xảy ra khi nào?",
+    "a": "Có nhiều leader cùng lúc",
+    "b": "Không có leader nào",
+    "c": "Leader bị quá tải",
+    "d": "Mạng bị chậm",
+    "correct_answer": "A"
+  },
+  {
+    "id": 89,
+    "question": "Giải thuật nào phù hợp nhất cho mạng có topo vòng?",
+    "a": "Nổi bọt",
+    "b": "Vòng",
+    "c": "Tập trung",
+    "d": "Ngẫu nhiên",
+    "correct_answer": "B"
+  },
+  {
+    "id": 90,
+    "question": "Trong hệ thống định vị, thông tin vị trí thường được lưu trữ ở đâu?",
+    "a": "Trên mỗi nút",
+    "b": "Tại máy chủ trung tâm",
+    "c": "Phân tán trên nhiều nút",
+    "d": "Trong cơ sở dữ liệu",
+    "correct_answer": "C"
+  },
+  {
+    "id": 91,
+    "question": "Độ phức tạp thông điệp của giải thuật loại trừ tương hỗ tập trung là?",
+    "a": "O(1)",
+    "b": "O(n)",
+    "c": "O(n²)",
+    "d": "O(log n)",
+    "correct_answer": "A"
+  },
+  {
+    "id": 92,
+    "question": "Khi sử dụng NTP, độ chính xác đồng bộ thời gian trên Internet có thể đạt?",
+    "a": "Vài mili giây",
+    "b": "Vài micro giây",
+    "c": "Vài nano giây",
+    "d": "Vài giây",
+    "correct_answer": "A"
+  },
+  {
+    "id": 93,
+    "question": "Giải thuật Berkeley phù hợp với môi trường nào?",
+    "a": "Mạng diện rộng",
+    "b": "Mạng cục bộ",
+    "c": "Internet",
+    "d": "Mạng không dây",
+    "correct_answer": "B"
+  },
+  {
+    "id": 94,
+    "question": "Trong đồng hồ Lamport, khi nào cần tăng giá trị đồng hồ?",
+    "a": "Chỉ khi gửi thông điệp",
+    "b": "Chỉ khi nhận thông điệp",
+    "c": "Cả khi gửi và nhận thông điệp",
+    "d": "Định kỳ",
+    "correct_answer": "C"
+  },
+  {
+    "id": 95,
+    "question": "Vấn đề chính khi đồng bộ thời gian qua mạng là gì?",
+    "a": "Độ trễ không xác định",
+    "b": "Băng thông hạn chế",
+    "c": "Lỗi phần cứng",
+    "d": "Chi phí cao",
+    "correct_answer": "A"
+  },
+  {
+    "id": 96,
+    "question": "Giải thuật loại trừ tương hỗ nào có độ phức tạp thông điệp thấp nhất?",
+    "a": "Tập trung",
+    "b": "Không tập trung",
+    "c": "Phân tán",
+    "d": "Thẻ bài",
+    "correct_answer": "A"
+  },
+  {
+    "id": 97,
+    "question": "Trong bầu chọn, coordinator thường là nút có đặc điểm gì?",
+    "a": "ID nhỏ nhất",
+    "b": "ID lớn nhất",
+    "c": "Tốc độ nhanh nhất",
+    "d": "Kết nối tốt nhất",
+    "correct_answer": "B"
+  },
+  {
+    "id": 98,
+    "question": "Snapshot algorithm được sử dụng để làm gì?",
+    "a": "Sao lưu dữ liệu",
+    "b": "Ghi lại trạng thái toàn cục",
+    "c": "Phát hiện lỗi",
+    "d": "Cân bằng tải",
+    "correct_answer": "B"
+  },
+  {
+    "id": 99,
+    "question": "Trong môi trường không dây, giải thuật bầu chọn nào phù hợp nhất?",
+    "a": "Dựa trên năng lượng",
+    "b": "Dựa trên tín hiệu",
+    "c": "Dựa trên vị trí",
+    "d": "Tất cả đều đúng",
+    "correct_answer": "D"
+  },
+  {
+    "id": 100,
+    "question": "Mục đích chính của việc đồng bộ đồng hồ trong hệ thống phân tán là gì?",
+    "a": "Tiết kiệm năng lượng",
+    "b": "Đảm bảo thứ tự sự kiện",
+    "c": "Tăng tốc độ xử lý",
+    "d": "Giảm lưu lượng mạng",
+    "correct_answer": "B"
+  },
+  {
+    "id": 101,
+    "question": "Theo giáo trình, lợi ích chính của việc áp dụng kỹ thuật đa luồng trên máy chủ là gì?",
+    "a": "Giảm chi phí phần cứng vì không cần nhiều bộ vi xử lý.",
+    "b": "Che giấu độ trễ truyền thông và cho phép xử lý song song nhiều yêu cầu, từ đó tăng hiệu năng.",
+    "c": "Tự động sao lưu dữ liệu mà không cần can thiệp.",
+    "d": "Loại bỏ hoàn toàn sự cần thiết của hệ điều hành.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 102,
+    "question": "\"Ảo hóa\" trong hệ thống máy tính có vai trò chính là gì?",
+    "a": "Tăng tốc độ của bộ vi xử lý vật lý lên gấp đôi.",
+    "b": "Mở rộng hoặc thay thế một giao diện hiện hành để bắt chước hành vi của một hệ thống khác, tạo sự độc lập với phần cứng.",
+    "c": "Chỉ dùng để chạy các phần mềm cũ trên phần cứng mới.",
+    "d": "Mã hóa toàn bộ dữ liệu trên ổ cứng.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 103,
+    "question": "Hình thức ảo hóa nào cho phép nhiều hệ điều hành khác nhau có thể cùng chạy trên một nền tảng phần cứng duy nhất?",
+    "a": "Giám sát máy ảo (Virtual Machine Monitor).",
+    "b": "Máy ảo tiến trình (Process Virtual Machine).",
+    "c": "Luồng mức người sử dụng.",
+    "d": "Luồng mức lõi.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 104,
+    "question": "\"Di trú mã\" (Code Migration) trong hệ thống phân tán là gì?",
+    "a": "Là quá trình di chuyển các chương trình hoặc đoạn mã từ máy tính này sang máy tính khác để thực thi.",
+    "b": "Là quá trình sao chép dữ liệu giữa các máy chủ nhân bản.",
+    "c": "Là quá trình gọi một thủ tục được đặt trên máy tính ở xa.",
+    "d": "Là quá trình mã hóa mã nguồn trước khi biên dịch.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 105,
+    "question": "Sự khác biệt cơ bản giữa \"di trú yếu\" (weak migration) và \"di trú mạnh\" (strong migration) là gì?",
+    "a": "Di trú yếu chỉ truyền phần mã, còn di trú mạnh truyền cả phần mã và trạng thái đang thực thi của tiến trình.",
+    "b": "Di trú yếu do máy khách khởi sướng, di trú mạnh do máy chủ khởi sướng.",
+    "c": "Di trú yếu chỉ áp dụng cho hệ thống đồng nhất, di trú mạnh cho hệ thống không đồng nhất.",
+    "d": "Di trú yếu nhanh hơn nhưng kém an toàn hơn di trú mạnh.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 106,
+    "question": "Một tiến trình hạng nhẹ (LightWeight Process - LWP) thực chất là gì?",
+    "a": "Một cách cài đặt luồng ở mức lõi của hệ điều hành.",
+    "b": "Một tiến trình chạy với quyền ưu tiên thấp nhất.",
+    "c": "Một loại máy ảo chuyên dụng cho các tác vụ nhẹ.",
+    "d": "Một kỹ thuật nén dữ liệu trước khi gửi đi.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 107,
+    "question": "Trong thiết kế máy chủ, máy chủ \"không trạng thái\" (stateless server) có đặc điểm gì?",
+    "a": "Không lưu giữ thông tin về trạng thái của máy khách giữa các yêu cầu.",
+    "b": "Yêu cầu máy khách phải lưu toàn bộ trạng thái của máy chủ.",
+    "c": "Luôn lưu giữ mọi thông tin của tất cả các phiên làm việc với máy khách.",
+    "d": "Chỉ hoạt động khi có kết nối mạng ổn định.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 108,
+    "question": "Trong kiến trúc cụm máy chủ 3 lớp, lớp nào chịu trách nhiệm thực hiện các quy trình nghiệp vụ và tính toán?",
+    "a": "Lớp tiếp nhận yêu cầu.",
+    "b": "Lớp lưu trữ dữ liệu.",
+    "c": "Lớp xử lý nghiệp vụ.",
+    "d": "Lớp mạng.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 109,
+    "question": "Tại sao kỹ thuật \"máy trạng thái hữu hạn\" (finite-state machine) lại hiệu quả cho các máy chủ hiệu năng cao?",
+    "a": "Vì nó cho phép xử lý song song và không bị phong tỏa bởi các lời gọi hệ thống.",
+    "b": "Vì nó tự động phân chia công việc cho nhiều máy chủ khác nhau.",
+    "c": "Vì nó không cần sử dụng bộ nhớ cache.",
+    "d": "Vì nó là kỹ thuật đơn luồng đơn giản nhất.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 110,
+    "question": "Khi một đoạn mã di trú đến một máy tính mới, vấn đề chính cần giải quyết đối với các tài nguyên cục bộ là gì?",
+    "a": "Làm thế nào để di chuyển các tài nguyên vật lý như màn hình, bàn phím.",
+    "b": "Việc tham chiếu đến các tài nguyên cục bộ (như file, cổng mạng) có thể không còn hợp lệ và cần được xử lý lại.",
+    "c": "Phải cài đặt lại toàn bộ hệ điều hành trên máy đích.",
+    "d": "Phải tăng gấp đôi dung lượng bộ nhớ trên máy đích.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 111,
+    "question": "Di trú mã do \"bên nhận khởi sướng\" (receiver-initiated) xảy ra khi nào?",
+    "a": "Khi một tác tử di động tự di chuyển đến một máy chủ mới.",
+    "b": "Khi máy chủ bắt buộc máy khách phải nhận một đoạn mã cập nhật.",
+    "c": "Khi máy khách chủ động tải mã về từ máy chủ để thực thi (ví dụ Javascript trên trình duyệt).",
+    "d": "Khi hai máy chủ tự trao đổi mã với nhau.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 112,
+    "question": "Vai trò của thành phần \"Stub\" và \"Skeleton\" trong các hệ thống đối tượng phân tán là gì?",
+    "a": "Stub ở phía máy khách và Skeleton ở phía máy chủ, đóng vai trò trung gian để che giấu việc truyền thông qua mạng.",
+    "b": "Cả hai đều nằm ở phía máy chủ để quản lý tài nguyên.",
+    "c": "Cả hai đều nằm ở phía máy khách để tạo giao diện người dùng.",
+    "d": "Stub dùng để mã hóa, Skeleton dùng để quản lý khóa.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 113,
+    "question": "Mục đích chính của việc tổ chức máy chủ thành cụm (server cluster) là gì?",
+    "a": "Để tiết kiệm chi phí mua sắm thiết bị.",
+    "b": "Để dễ dàng quản lý bởi một người duy nhất.",
+    "c": "Để phân tải xử lý và tăng khả năng chịu lỗi.",
+    "d": "Để giảm thiểu số lượng luồng cần tạo ra.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 114,
+    "question": "Mức gắn kết của một tài nguyên với máy tính được xem là \"cố định\" (fixed) đối với loại tài nguyên nào?",
+    "a": "Các tập tin văn bản.",
+    "b": "Các thiết bị ngoại vi được gắn trực tiếp vào máy tính.",
+    "c": "Các cơ sở dữ liệu có thể sao chép.",
+    "d": "Các thư viện liên kết động.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 115,
+    "question": "Khi một luồng trong tiến trình thực hiện một lời gọi hệ thống loại \"phong tỏa\" (blocking), điều gì sẽ xảy ra nếu luồng được cài đặt ở mức người sử dụng?",
+    "a": "Chỉ luồng đó bị phong tỏa, các luồng khác vẫn chạy bình thường.",
+    "b": "Toàn bộ tiến trình chứa luồng đó sẽ bị phong tỏa.",
+    "c": "Hệ điều hành sẽ tự động tạo một tiến trình mới để thay thế.",
+    "d": "Lời gọi hệ thống sẽ bị từ chối.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 116,
+    "question": "Giám sát máy ảo (Virtual Machine Monitor) tạo ra sự ảo hóa ở mức độ nào?",
+    "a": "Mức giao diện phần cứng, cho phép chạy nhiều hệ điều hành.",
+    "b": "Mức giao diện thư viện lập trình ứng dụng (API).",
+    "c": "Mức giao diện các lời gọi hệ thống (system calls).",
+    "d": "Mức giao diện người dùng đồ họa.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 117,
+    "question": "Tại sao việc di trú tiến trình trong một hệ thống không đồng nhất (heterogeneous) lại phức tạp?",
+    "a": "Vì các máy tính có kiến trúc (ISA) và hệ điều hành khác nhau, đòi hỏi mã phải tương thích hoặc được thông dịch.",
+    "b": "Vì băng thông mạng giữa các hệ thống không đồng nhất luôn thấp.",
+    "c": "Vì không thể xác định được địa chỉ IP của máy đích.",
+    "d": "Vì các hệ thống không đồng nhất không hỗ trợ đa luồng.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 118,
+    "question": "Để tăng hiệu năng, máy khách thường thực hiện nhiệm vụ gì trước khi gửi yêu cầu đến máy chủ?",
+    "a": "Tiền xử lý dữ liệu, ví dụ kiểm tra tính hợp lệ của dữ liệu đầu vào.",
+    "b": "Nén toàn bộ ổ cứng của mình.",
+    "c": "Yêu cầu máy chủ khởi động lại.",
+    "d": "Tắt tất cả các ứng dụng khác đang chạy.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 119,
+    "question": "Trong các giải pháp di trú mã, việc di chuyển cả phần mã và trạng thái đang thực thi (ngăn xếp, bộ đếm chương trình) được gọi là gì?",
+    "a": "Di trú mạnh (Strong migration).",
+    "b": "Di trú yếu (Weak migration).",
+    "c": "Di trú một phần (Partial migration).",
+    "d": "Di trú tĩnh (Static migration).",
+    "correct_answer": "A"
+  },
+  {
+    "id": 120,
+    "question": "Kỹ thuật RAID (Redundant Array of Independent Disks) thường được sử dụng ở lớp nào trong cụm máy chủ 3 lớp?",
+    "a": "Lớp xử lý nghiệp vụ.",
+    "b": "Lớp tiếp nhận yêu cầu.",
+    "c": "Lớp lưu trữ dữ liệu.",
+    "d": "Cả ba lớp trên.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 121,
+    "question": "Theo quan điểm hệ điều hành, một \"tiến trình\" (process) là gì?",
+    "a": "Một tệp thực thi được lưu trên đĩa.",
+    "b": "Một chương trình đang chạy trong một môi trường được bảo vệ riêng (không gian địa chỉ, tài nguyên).",
+    "c": "Một đoạn mã có thể được gọi bởi các chương trình khác.",
+    "d": "Một thiết bị phần cứng của máy tính.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 122,
+    "question": "Máy chủ \"tương tranh\" (concurrent server) xử lý các yêu cầu của máy khách như thế nào?",
+    "a": "Xử lý lần lượt từng yêu cầu một, yêu cầu sau phải chờ yêu cầu trước hoàn thành.",
+    "b": "Tiếp nhận một yêu cầu và chuyển nó cho một luồng hoặc tiến trình khác xử lý, sau đó quay lại tiếp nhận yêu cầu mới.",
+    "c": "Từ chối tất cả các yêu cầu nếu đang bận.",
+    "d": "Chỉ xử lý các yêu cầu từ một máy khách duy nhất tại một thời điểm.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 123,
+    "question": "Để đảm bảo tính trong suốt về lỗi truyền thông trên máy khách, phần mềm trung gian có thể làm gì?",
+    "a": "Tự động gửi lại yêu cầu một vài lần hoặc chuyển sang một máy chủ nhân bản khác.",
+    "b": "Thông báo lỗi ngay lập tức cho người dùng và dừng chương trình.",
+    "c": "Yêu cầu người dùng tự khởi động lại kết nối mạng.",
+    "d": "Giảm chất lượng dịch vụ xuống mức thấp nhất.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 124,
+    "question": "Việc một ứng dụng có thể chạy song song với ứng dụng khác trong các môi trường được cách ly với nhau là một lợi ích của kỹ thuật nào?",
+    "a": "Kỹ thuật đa luồng.",
+    "b": "Di trú mã.",
+    "c": "Gọi thủ tục từ xa.",
+    "d": "Ảo hóa.",
+    "correct_answer": "D"
+  },
+  {
+    "id": 125,
+    "question": "Khi di trú mã, việc tham chiếu đến một tài nguyên chỉ bằng \"loại\" của nó (ví dụ: máy in) mà không cần biết đó là máy in cụ thể nào, được gọi là mức tham chiếu gì?",
+    "a": "Rất yếu.",
+    "b": "Yếu.",
+    "c": "Mạnh.",
+    "d": "Cố định.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 126,
+    "question": "Giao tác phẳng có đặc điểm gì?",
+    "a": "Không có cấu trúc phân cấp",
+    "b": "Có thể lồng nhau",
+    "c": "Được chia thành nhiều giao tác con",
+    "d": "Thực hiện tuần tự",
+    "correct_answer": "A"
+  },
+  {
+    "id": 127,
+    "question": "Tính nguyên tử (Atomicity) trong giao tác có nghĩa là gì?",
+    "a": "Giao tác thực hiện nhanh",
+    "b": "Giao tác không thể bị gián đoạn",
+    "c": "Tất cả hoặc không có thao tác nào được thực hiện",
+    "d": "Giao tác chỉ có một thao tác",
+    "correct_answer": "C"
+  },
+  {
+    "id": 128,
+    "question": "Tính nhất quán (Consistency) đảm bảo điều gì?",
+    "a": "Dữ liệu luôn được sao lưu",
+    "b": "Giao tác không vi phạm các ràng buộc dữ liệu",
+    "c": "Thời gian thực hiện nhất quán",
+    "d": "Kết quả luôn giống nhau",
+    "correct_answer": "B"
+  },
+  {
+    "id": 129,
+    "question": "Tính cô lập (Isolation) có tác dụng gì?",
+    "a": "Ngăn giao tác can thiệp lẫn nhau",
+    "b": "Tách biệt dữ liệu",
+    "c": "Cô lập lỗi",
+    "d": "Phân chia tài nguyên",
+    "correct_answer": "A"
+  },
+  {
+    "id": 130,
+    "question": "Tính bền vững (Durability) đảm bảo điều gì?",
+    "a": "Giao tác không bị hủy",
+    "b": "Dữ liệu tồn tại lâu dài",
+    "c": "Kết quả giao tác được lưu vĩnh viễn",
+    "d": "Giao tác có thể thực hiện lại",
+    "correct_answer": "C"
+  },
+  {
+    "id": 131,
+    "question": "Giao tác lồng nhau có ưu điểm gì?",
+    "a": "Đơn giản hơn",
+    "b": "Cho phép xử lý song song",
+    "c": "Ít lỗi hơn",
+    "d": "Nhanh hơn",
+    "correct_answer": "B"
+  },
+  {
+    "id": 132,
+    "question": "Giao tác phân tán khác giao tác cục bộ ở điểm nào?",
+    "a": "Thực hiện trên nhiều máy chủ",
+    "b": "Có nhiều người dùng",
+    "c": "Dữ liệu lớn hơn",
+    "d": "Phức tạp hơn",
+    "correct_answer": "A"
+  },
+  {
+    "id": 133,
+    "question": "Khóa độc quyền (Exclusive lock) có tác dụng gì?",
+    "a": "Cho phép đọc nhưng không ghi",
+    "b": "Ngăn tất cả truy nhập khác",
+    "c": "Chỉ cho phép một giao tác truy nhập",
+    "d": "Chia sẻ cho nhiều giao tác đọc",
+    "correct_answer": "C"
+  },
+  {
+    "id": 134,
+    "question": "Khóa chia sẻ (Shared lock) được sử dụng khi nào?",
+    "a": "Khi ghi dữ liệu",
+    "b": "Khi đọc dữ liệu",
+    "c": "Khi xóa dữ liệu",
+    "d": "Khi sao chép dữ liệu",
+    "correct_answer": "B"
+  },
+  {
+    "id": 135,
+    "question": "Khóa chết (Deadlock) xảy ra khi nào?",
+    "a": "Khóa bị hỏng",
+    "b": "Các giao tác chờ nhau vô hạn",
+    "c": "Khóa quá lâu",
+    "d": "Không thể mở khóa",
+    "correct_answer": "B"
+  },
+  {
+    "id": 136,
+    "question": "Phương pháp phát hiện khóa chết dựa trên gì?",
+    "a": "Thời gian chờ",
+    "b": "Đồ thị chờ đợi",
+    "c": "Số lượng khóa",
+    "d": "Loại khóa",
+    "correct_answer": "B"
+  },
+  {
+    "id": 137,
+    "question": "Giải pháp ngăn ngừa khóa chết bằng cách nào?",
+    "a": "Sắp xếp thứ tự khóa",
+    "b": "Giới hạn thời gian",
+    "c": "Giảm số giao tác",
+    "d": "Tăng tài nguyên",
+    "correct_answer": "A"
+  },
+  {
+    "id": 138,
+    "question": "Điều khiển tương tranh lạc quan hoạt động như thế nào?",
+    "a": "Kiểm tra xung đột khi commit",
+    "b": "Khóa ngay từ đầu",
+    "c": "Không cho phép xung đột",
+    "d": "Sử dụng khóa tạm thời",
+    "correct_answer": "A"
+  },
+  {
+    "id": 139,
+    "question": "Điều khiển tương tranh bi quan có đặc điểm gì?",
+    "a": "Khóa trước khi truy nhập",
+    "b": "Không sử dụng khóa",
+    "c": "Kiểm tra sau",
+    "d": "Cho phép xung đột",
+    "correct_answer": "A"
+  },
+  {
+    "id": 140,
+    "question": "Phê chuẩn ngược (Backward validation) kiểm tra gì?",
+    "a": "Giao tác hiện tại với giao tác tương lai",
+    "b": "Giao tác hiện tại với giao tác đã commit",
+    "c": "Tất cả giao tác",
+    "d": "Chỉ giao tác lỗi",
+    "correct_answer": "B"
+  },
+  {
+    "id": 141,
+    "question": "Phê chuẩn xuôi (Forward validation) có ưu điểm gì?",
+    "a": "Đơn giản hơn",
+    "b": "Ít xung đột hơn",
+    "c": "Nhanh hơn",
+    "d": "Chính xác hơn",
+    "correct_answer": "B"
+  },
+  {
+    "id": 142,
+    "question": "Nhãn thời gian trong điều khiển tương tranh dùng để làm gì?",
+    "a": "Đo thời gian thực hiện",
+    "b": "Xác định thứ tự giao tác",
+    "c": "Tính toán hiệu năng",
+    "d": "Ghi log",
+    "correct_answer": "B"
+  },
+  {
+    "id": 143,
+    "question": "Quy tắc Thomas trong điều khiển nhãn thời gian là gì?",
+    "a": "Giao tác cũ hơn được ưu tiên",
+    "b": "Bỏ qua ghi nếu đã có ghi mới hơn",
+    "c": "Hủy giao tác mới",
+    "d": "Chờ đợi giao tác cũ",
+    "correct_answer": "B"
+  },
+  {
+    "id": 144,
+    "question": "Giao thức 2PL (Two-Phase Locking) có mấy pha?",
+    "a": "Một pha",
+    "b": "Hai pha",
+    "c": "Ba pha",
+    "d": "Bốn pha",
+    "correct_answer": "B"
+  },
+  {
+    "id": 145,
+    "question": "Pha mở rộng trong 2PL làm gì?",
+    "a": "Giải phóng khóa",
+    "b": "Thu thập khóa",
+    "c": "Kiểm tra khóa",
+    "d": "Chuyển đổi khóa",
+    "correct_answer": "B"
+  },
+  {
+    "id": 146,
+    "question": "Pha co rút trong 2PL làm gì?",
+    "a": "Thu thập khóa",
+    "b": "Giải phóng khóa",
+    "c": "Kiểm tra xung đột",
+    "d": "Tạo khóa mới",
+    "correct_answer": "B"
+  },
+  {
+    "id": 147,
+    "question": "Strict 2PL khác 2PL cơ bản ở điểm nào?",
+    "a": "Giải phóng khóa sau khi commit",
+    "b": "Sử dụng ít khóa hơn",
+    "c": "Nhanh hơn",
+    "d": "Đơn giản hơn",
+    "correct_answer": "A"
+  },
+  {
+    "id": 148,
+    "question": "Rigorous 2PL có đặc điểm gì?",
+    "a": "Giải phóng tất cả khóa cùng lúc",
+    "b": "Không sử dụng khóa",
+    "c": "Khóa vĩnh viễn",
+    "d": "Khóa ngẫu nhiên",
+    "correct_answer": "A"
+  },
+  {
+    "id": 149,
+    "question": "Multiversion concurrency control hoạt động như thế nào?",
+    "a": "Tạo nhiều phiên bản dữ liệu",
+    "b": "Sử dụng nhiều khóa",
+    "c": "Chạy nhiều giao tác",
+    "d": "Có nhiều cơ sở dữ liệu",
+    "correct_answer": "A"
+  },
+  {
+    "id": 150,
+    "question": "Snapshot isolation đảm bảo điều gì?",
+    "a": "Mỗi giao tác thấy ảnh chụp nhất quán",
+    "b": "Dữ liệu không thay đổi",
+    "c": "Giao tác độc lập",
+    "d": "Không có xung đột",
+    "correct_answer": "A"
+  },
+  {
+    "id": 151,
+    "question": "Write skew anomaly xảy ra khi nào?",
+    "a": "Hai giao tác ghi vào cùng dữ liệu",
+    "b": "Giao tác đọc dữ liệu cũ",
+    "c": "Hai giao tác vi phạm ràng buộc",
+    "d": "Giao tác bị hủy",
+    "correct_answer": "C"
+  },
+  {
+    "id": 152,
+    "question": "Phantom read là hiện tượng gì?",
+    "a": "Đọc dữ liệu không tồn tại",
+    "b": "Đọc thấy bản ghi mới được thêm",
+    "c": "Đọc dữ liệu sai",
+    "d": "Không đọc được dữ liệu",
+    "correct_answer": "B"
+  },
+  {
+    "id": 153,
+    "question": "Dirty read xảy ra khi nào?",
+    "a": "Đọc dữ liệu chưa commit",
+    "b": "Đọc dữ liệu sai",
+    "c": "Đọc dữ liệu cũ",
+    "d": "Không đọc được",
+    "correct_answer": "A"
+  },
+  {
+    "id": 154,
+    "question": "Non-repeatable read có nghĩa là gì?",
+    "a": "Không thể đọc lại",
+    "b": "Đọc lại cho kết quả khác",
+    "c": "Đọc một lần",
+    "d": "Đọc sai",
+    "correct_answer": "B"
+  },
+  {
+    "id": 155,
+    "question": "Serializable isolation level đảm bảo gì?",
+    "a": "Giao tác chạy tuần tự",
+    "b": "Không có anomaly",
+    "c": "Hiệu năng cao",
+    "d": "Đơn giản",
+    "correct_answer": "B"
+  },
+  {
+    "id": 156,
+    "question": "Read committed isolation level cho phép gì?",
+    "a": "Chỉ đọc dữ liệu đã commit",
+    "b": "Đọc mọi dữ liệu",
+    "c": "Không cho phép đọc",
+    "d": "Đọc dữ liệu tạm thời",
+    "correct_answer": "A"
+  },
+  {
+    "id": 157,
+    "question": "Read uncommitted isolation level có rủi ro gì?",
+    "a": "Dirty read",
+    "b": "Phantom read",
+    "c": "Write skew",
+    "d": "Tất cả đều sai",
+    "correct_answer": "A"
+  },
+  {
+    "id": 158,
+    "question": "Repeatable read isolation level ngăn ngừa gì?",
+    "a": "Dirty read và non-repeatable read",
+    "b": "Chỉ dirty read",
+    "c": "Chỉ phantom read",
+    "d": "Không ngăn ngừa gì",
+    "correct_answer": "A"
+  },
+  {
+    "id": 159,
+    "question": "Intention lock được sử dụng để làm gì?",
+    "a": "Báo hiệu ý định khóa",
+    "b": "Khóa tạm thời",
+    "c": "Khóa yếu",
+    "d": "Khóa dự phòng",
+    "correct_answer": "A"
+  },
+  {
+    "id": 160,
+    "question": "Hierarchical locking có ưu điểm gì?",
+    "a": "Giảm số lượng khóa cần thiết",
+    "b": "Tăng hiệu năng",
+    "c": "Đơn giản hóa",
+    "d": "Tất cả đều đúng",
+    "correct_answer": "D"
+  },
+  {
+    "id": 161,
+    "question": "Predicate locking được dùng khi nào?",
+    "a": "Khóa theo điều kiện",
+    "b": "Khóa toàn bộ",
+    "c": "Khóa một phần",
+    "d": "Không khóa",
+    "correct_answer": "A"
+  },
+  {
+    "id": 162,
+    "question": "Index locking có tác dụng gì?",
+    "a": "Khóa chỉ mục thay vì dữ liệu",
+    "b": "Tăng tốc độ",
+    "c": "Giảm xung đột",
+    "d": "Bảo vệ chỉ mục",
+    "correct_answer": "A"
+  },
+  {
+    "id": 163,
+    "question": "Wound-wait scheme hoạt động như thế nào?",
+    "a": "Giao tác cũ hủy giao tác mới",
+    "b": "Giao tác mới chờ giao tác cũ",
+    "c": "Tất cả đều chờ",
+    "d": "Không ai chờ",
+    "correct_answer": "A"
+  },
+  {
+    "id": 164,
+    "question": "Wait-die scheme có đặc điểm gì?",
+    "a": "Giao tác cũ chờ, giao tác mới chết",
+    "b": "Giao tác mới chờ",
+    "c": "Tất cả đều chờ",
+    "d": "Không ai chết",
+    "correct_answer": "A"
+  },
+  {
+    "id": 165,
+    "question": "Timeout-based deadlock detection hoạt động như thế nào?",
+    "a": "Hủy giao tác sau thời gian chờ",
+    "b": "Phát hiện ngay lập tức",
+    "c": "Không bao giờ hủy",
+    "d": "Chờ vô hạn",
+    "correct_answer": "A"
+  },
+  {
+    "id": 166,
+    "question": "Distributed deadlock detection phức tạp vì sao?",
+    "a": "Giao tác trên nhiều máy chủ",
+    "b": "Nhiều dữ liệu",
+    "c": "Nhiều người dùng",
+    "d": "Mạng chậm",
+    "correct_answer": "A"
+  },
+  {
+    "id": 167,
+    "question": "Compensating transaction được sử dụng khi nào?",
+    "a": "Khi cần hoàn tác giao tác đã commit",
+    "b": "Khi giao tác lỗi",
+    "c": "Khi cần sao lưu",
+    "d": "Khi cần tăng tốc",
+    "correct_answer": "A"
+  },
+  {
+    "id": 168,
+    "question": "Saga pattern giải quyết vấn đề gì?",
+    "a": "Giao tác dài trong hệ thống phân tán",
+    "b": "Hiệu năng thấp",
+    "c": "Bảo mật",
+    "d": "Sao lưu dữ liệu",
+    "correct_answer": "A"
+  },
+  {
+    "id": 169,
+    "question": "Eventual consistency có nghĩa là gì?",
+    "a": "Dữ liệu sẽ nhất quán sau một thời gian",
+    "b": "Luôn nhất quán",
+    "c": "Không bao giờ nhất quán",
+    "d": "Nhất quán ngẫu nhiên",
+    "correct_answer": "A"
+  },
+  {
+    "id": 170,
+    "question": "BASE model khác ACID ở điểm nào?",
+    "a": "Ưu tiên tính sẵn sàng hơn nhất quán",
+    "b": "Nghiêm ngặt hơn",
+    "c": "Đơn giản hơn",
+    "d": "Nhanh hơn",
+    "correct_answer": "A"
+  },
+  {
+    "id": 171,
+    "question": "Theo giáo trình, khả năng chịu lỗi (fault tolerance) của một hệ thống được đánh giá dựa trên những yêu cầu cơ bản nào?",
+    "a": "Tính sẵn sàng, đáng tin cậy, an toàn và khả năng bảo trì.",
+    "b": "Tốc độ xử lý, băng thông mạng và dung lượng lưu trữ.",
+    "c": "Tính trong suốt, tính mở và khả năng mở rộng.",
+    "d": "Giao diện thân thiện, chi phí thấp và dễ phát triển.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 172,
+    "question": "Lỗi được phân loại là \"lỗi chập chờn\" (intermittent fault) có đặc điểm gì?",
+    "a": "Lỗi chỉ xảy ra một lần sau đó biến mất.",
+    "b": "Lỗi vẫn tồn tại ngay cả khi thành phần gây lỗi đã được sửa chữa.",
+    "c": "Lỗi xuất hiện nhiều lần, có thể theo chu kỳ hoặc không, và rất khó xác định.",
+    "d": "Lỗi do người dùng thao tác sai.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 173,
+    "question": "Mô hình thất bại nào mô tả trường hợp một thành phần đang hoạt động bình thường nhưng đột ngột dừng lại mà không có cảnh báo?",
+    "a": "Sụp đổ (Crash failure).",
+    "b": "Bỏ sót (Omission failure).",
+    "c": "Thời gian (Timing failure).",
+    "d": "Tùy tiện (Byzantine failure).",
+    "correct_answer": "A"
+  },
+  {
+    "id": 174,
+    "question": "Phương pháp phổ biến và cơ bản nhất để xây dựng một hệ thống có khả năng chịu lỗi là gì?",
+    "a": "Sử dụng dư thừa (redundancy).",
+    "b": "Chỉ sử dụng phần cứng đắt tiền nhất.",
+    "c": "Giảm số lượng người dùng đồng thời.",
+    "d": "Đơn giản hóa các thuật toán xử lý.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 175,
+    "question": "\"Tiến trình bền bỉ\" (resilient process) được xây dựng dựa trên giải pháp chính nào?",
+    "a": "Nhân bản tiến trình và tổ chức chúng thành một nhóm.",
+    "b": "Tăng tốc độ của bộ vi xử lý.",
+    "c": "Sử dụng một tiến trình duy nhất có cấu hình mạnh.",
+    "d": "Mã hóa tất cả các thông điệp trao đổi.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 176,
+    "question": "Trong bài toán đồng thuận Byzantine, một hệ thống có k tiến trình lỗi thì cần tối thiểu bao nhiêu tiến trình không lỗi để có thể đạt được sự đồng thuận?",
+    "a": "k+1",
+    "b": "2k+1",
+    "c": "3k+1",
+    "d": "k",
+    "correct_answer": "B"
+  },
+  {
+    "id": 177,
+    "question": "Nhược điểm chính của giao thức cam kết hai pha (2PC) là gì?",
+    "a": "Giao thức có thể bị phong tỏa (blocking) nếu tiến trình điều phối bị lỗi.",
+    "b": "Giao thức không đảm bảo được tính nguyên tử của giao tác.",
+    "c": "Giao thức đòi hỏi tất cả các thành viên phải có đồng hồ vật lý đồng bộ.",
+    "d": "Giao thức quá phức tạp để cài đặt trong thực tế.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 178,
+    "question": "Giao thức cam kết ba pha (3PC) được đề xuất để khắc phục nhược điểm nào của 2PC?",
+    "a": "Khắc phục vấn đề phong tỏa khi tiến trình điều phối bị lỗi bằng cách thêm trạng thái PRECOMMIT.",
+    "b": "Giảm số lượng thông điệp cần trao đổi giữa các thành viên.",
+    "c": "Tăng tốc độ thực thi của giao tác phân tán.",
+    "d": "Đơn giản hóa quá trình phục hồi sau lỗi.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 179,
+    "question": "Kỹ thuật \"điểm kiểm tra\" (checkpointing) trong phục hồi hệ thống có mục đích gì?",
+    "a": "Ghi lại trạng thái của hệ thống vào bộ nhớ ổn định để có thể khởi động lại từ điểm đó khi có lỗi.",
+    "b": "Kiểm tra lỗi cú pháp trong mã nguồn của chương trình.",
+    "c": "Đo lường hiệu năng của hệ thống tại một thời điểm.",
+    "d": "Phân chia công việc cho các tiến trình trong hệ thống.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 180,
+    "question": "Hiện tượng \"domino effect\" trong phục hồi hệ thống xảy ra khi nào?",
+    "a": "Khi sử dụng điểm kiểm tra độc lập, việc phục hồi một tiến trình có thể kéo theo việc phải phục hồi hàng loạt tiến trình khác.",
+    "b": "Khi một lỗi nhỏ lan truyền và gây ra sụp đổ toàn bộ hệ thống.",
+    "c": "Khi nhiều người dùng cùng yêu cầu phục hồi dữ liệu một lúc.",
+    "d": "Khi hệ thống không thể tạo được điểm kiểm tra mới.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 181,
+    "question": "\"Phục hồi lùi\" (backward recovery) và \"phục hồi tiến\" (forward recovery) khác nhau ở điểm nào?",
+    "a": "Phục hồi lùi đưa hệ thống về trạng thái tốt trước đó, còn phục hồi tiến đưa hệ thống đến một trạng thái tốt mới.",
+    "b": "Phục hồi lùi chỉ áp dụng cho lỗi phần cứng, phục hồi tiến cho lỗi phần mềm.",
+    "c": "Phục hồi lùi nhanh hơn nhưng kém tin cậy hơn phục hồi tiến.",
+    "d": "Phục hồi lùi không cần điểm kiểm tra, còn phục hồi tiến thì có.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 182,
+    "question": "Khi một máy khách gọi thủ tục từ xa (RPC) nhưng không nhận được phản hồi, nguyên nhân KHÔNG thể là gì?",
+    "a": "Máy chủ đã xử lý và gửi lại phản hồi nhưng bị mất trên đường truyền.",
+    "b": "Máy chủ chưa bao giờ nhận được yêu cầu từ máy khách.",
+    "c": "Máy chủ đã nhận yêu cầu nhưng bị sụp đổ trước khi xử lý.",
+    "d": "Tiến trình máy khách và máy chủ đang dùng chung bộ nhớ.",
+    "correct_answer": "D"
+  },
+  {
+    "id": 183,
+    "question": "Trong truyền thông nhóm tin cậy cho các hệ thống lớn, giải pháp \"phản hồi không phân cấp\" (ví dụ giao thức SRM) giải quyết vấn đề gì?",
+    "a": "Giảm thiểu số lượng thông điệp phản hồi (ACK/NACK) gửi về cho bên gửi, tránh hiện tượng \"bùng nổ phản hồi\".",
+    "b": "Đảm bảo các thông điệp được gửi đi theo đúng thứ tự.",
+    "c": "Mã hóa tất cả các thông điệp trong nhóm.",
+    "d": "Cho phép các thành viên rời nhóm mà không cần thông báo.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 184,
+    "question": "\"Tiến trình mồ côi\" (orphan process) trong hệ thống có ghi nhật ký thông điệp là gì?",
+    "a": "Là tiến trình vẫn còn tồn tại nhưng trạng thái của nó không nhất quán với một tiến trình khác đã bị sụp đổ và phục hồi.",
+    "b": "Là tiến trình không có tiến trình cha nào.",
+    "c": "Là tiến trình bị lỗi nhưng không thể phục hồi được.",
+    "d": "Là tiến trình không nhận được bất kỳ thông điệp nào từ các tiến trình khác.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 185,
+    "question": "Giao thức ghi nhật ký \"bi quan\" (pessimistic logging) đảm bảo điều gì để tránh tiến trình mồ côi?",
+    "a": "Đảm bảo mỗi thông điệp được ghi vào bộ nhớ ổn định trước khi các thông điệp phụ thuộc vào nó được xử lý.",
+    "b": "Cho phép các tiến trình xử lý thông điệp ngay cả khi chưa ghi vào nhật ký.",
+    "c": "Chỉ ghi nhật ký khi hệ thống có dấu hiệu sắp sụp đổ.",
+    "d": "Không cần ghi nhật ký mà chỉ dựa vào điểm kiểm tra.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 186,
+    "question": "Che giấu lỗi bằng biện pháp dư thừa vật lý có nghĩa là gì?",
+    "a": "Bổ sung thêm tài nguyên vật lý (máy chủ, kênh truyền) để dự phòng khi có lỗi xảy ra.",
+    "b": "Thêm các bit kiểm tra vào thông điệp để phát hiện và sửa lỗi.",
+    "c": "Thực hiện lại một thao tác khi nó gặp lỗi.",
+    "d": "Phân chia một tiến trình thành nhiều luồng để xử lý.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 187,
+    "question": "Mô hình thất bại \"tùy tiện\" (Byzantine) là nghiêm trọng nhất vì sao?",
+    "a": "Máy chủ có thể trả về kết quả sai một cách tùy ý mà máy khách khó có thể phát hiện.",
+    "b": "Máy chủ chỉ đơn giản là ngừng hoạt động.",
+    "c": "Phản hồi của máy chủ bị trễ hơn so với quy định.",
+    "d": "Máy chủ không nhận được yêu cầu từ máy khách.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 188,
+    "question": "Trong giao thức cam kết hai pha (2PC), tiến trình điều phối sẽ quyết định \"GLOBAL_ABORT\" khi nào?",
+    "a": "Khi có ít nhất một thành viên bỏ phiếu \"VOTE_ABORT\".",
+    "b": "Khi tất cả các thành viên đều bỏ phiếu \"VOTE_COMMIT\".",
+    "c": "Khi tiến trình điều phối không nhận được phiếu bầu nào.",
+    "d": "Khi máy khách hủy yêu cầu.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 189,
+    "question": "Tại sao \"điểm kiểm tra phối hợp\" (coordinated checkpointing) lại tránh được hiệu ứng domino?",
+    "a": "Vì tất cả các tiến trình đồng bộ để ghi lại trạng thái tại cùng một thời điểm logic, tạo ra một trạng thái toàn cục nhất quán.",
+    "b": "Vì nó sử dụng nhiều bộ nhớ hơn để lưu điểm kiểm tra.",
+    "c": "Vì nó chỉ được thực hiện khi hệ thống rảnh rỗi.",
+    "d": "Vì nó không cho phép các tiến trình trao đổi thông điệp.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 190,
+    "question": "Trong các chiến lược xử lý khi máy chủ RPC bị sụp đổ, \"at-most-once\" (thực hiện nhiều nhất một lần) có nghĩa là gì?",
+    "a": "Máy chủ sau khi phục hồi sẽ không thực hiện lại yêu cầu đã nhận trước đó mà báo lỗi, đảm bảo yêu cầu không bị lặp.",
+    "b": "Máy chủ sẽ cố gắng thực hiện lại yêu cầu cho đến khi thành công.",
+    "c": "Yêu cầu có thể được thực hiện lặp lại nhiều lần.",
+    "d": "Máy chủ không đảm bảo bất cứ điều gì về việc thực hiện yêu cầu.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 191,
+    "question": "Tổ chức nhóm các tiến trình bền bỉ theo kiến trúc \"ngang hàng\" còn được gọi là gì?",
+    "a": "Nhân bản chủ động (Active replication).",
+    "b": "Nhân bản dựa trên thành phần chính (Primary-backup).",
+    "c": "Nhân bản một pha.",
+    "d": "Nhân bản không đồng bộ.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 192,
+    "question": "Mục đích của việc sử dụng các số tuần tự và nhãn thời gian trong truyền thông tin cậy là gì?",
+    "a": "Để phát hiện các thông điệp bị mất, bị lặp hoặc sai thứ tự.",
+    "b": "Để mã hóa nội dung thông điệp.",
+    "c": "Để xác định vị trí địa lý của người gửi.",
+    "d": "Để giảm kích thước của thông điệp.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 193,
+    "question": "Trong giao thức cam kết, một thành viên sau khi bỏ phiếu \"VOTE_COMMIT\" thì nó sẽ chuyển sang trạng thái nào để chờ quyết định cuối cùng?",
+    "a": "Trạng thái sẵn sàng (READY).",
+    "b": "Trạng thái khởi tạo (INIT).",
+    "c": "Trạng thái cam kết (COMMIT).",
+    "d": "Trạng thái hủy bỏ (ABORT).",
+    "correct_answer": "A"
+  },
+  {
+    "id": 194,
+    "question": "Kỹ thuật phục hồi nào phù hợp nhất để khắc phục các lỗi nhất thời (transient faults)?",
+    "a": "Dư thừa thời gian (thực hiện lại thao tác).",
+    "b": "Dư thừa thông tin (thêm bit kiểm tra).",
+    "c": "Dư thừa vật lý (thêm thiết bị).",
+    "d": "Ghi nhật ký thông điệp.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 195,
+    "question": "Việc phát hiện một tiến trình khác bị lỗi trong hệ thống phân tán thường dựa vào cơ chế nào?",
+    "a": "Gửi thông điệp thăm dò (ping/heartbeat) và sử dụng cơ chế thời gian quá hạn (timeout).",
+    "b": "So sánh phiên bản phần mềm của các tiến trình.",
+    "c": "Kiểm tra nhật ký hệ điều hành của máy từ xa.",
+    "d": "Dựa vào thông báo trực tiếp từ người dùng.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 196,
+    "question": "Trong RPC, nếu máy khách không thể xác định được vị trí của máy chủ, đây là thất bại ở bước nào?",
+    "a": "Bước định vị và liên kết (binding) với máy chủ.",
+    "b": "Bước gửi yêu cầu sau khi đã liên kết.",
+    "c": "Bước máy chủ thực thi yêu cầu.",
+    "d": "Bước nhận phản hồi từ máy chủ.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 197,
+    "question": "Điều kiện nào sau đây là bắt buộc để một giải thuật có thể đạt được sự đồng thuận trong hệ thống có lỗi Byzantine?",
+    "a": "Số tiến trình không lỗi phải nhiều hơn gấp đôi số tiến trình có thể bị lỗi.",
+    "b": "Tất cả các kênh truyền thông phải hoàn toàn không có độ trễ.",
+    "c": "Hệ thống phải có một đồng hồ toàn cục được đồng bộ hóa tuyệt đối.",
+    "d": "Tất cả các tiến trình phải chạy trên cùng một máy tính.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 198,
+    "question": "Một \"đường phục hồi\" (recovery line) trong hệ thống có điểm kiểm tra là gì?",
+    "a": "Một tập hợp các điểm kiểm tra cục bộ của các tiến trình tạo thành một trạng thái toàn cục nhất quán gần nhất.",
+    "b": "Đường đi ngắn nhất để một thông điệp phục hồi được gửi đi.",
+    "c": "Danh sách các tiến trình cần được phục hồi.",
+    "d": "Đoạn mã chương trình chuyên thực hiện việc phục hồi.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 199,
+    "question": "Tại sao truyền thông nhóm tin cậy trong các hệ thống quy mô lớn thường sử dụng kiến trúc phân cấp?",
+    "a": "Để giảm tải cho bên gửi và phân tán công việc quản lý phản hồi (ACK/NACK) cho các nút điều phối trung gian.",
+    "b": "Vì kiến trúc phân cấp dễ cài đặt hơn kiến trúc ngang hàng.",
+    "c": "Để đảm bảo chỉ có một thông điệp được gửi đi tại một thời điểm.",
+    "d": "Để tất cả các thành viên nhận được thông điệp cùng một lúc.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 200,
+    "question": "Thất bại dạng \"kết quả sai\" (response failure) là gì?",
+    "a": "Giá trị hoặc trạng thái trả về của một dịch vụ không đúng như đã thiết kế.",
+    "b": "Dịch vụ phản hồi chậm hơn thời gian quy định.",
+    "c": "Dịch vụ không phản hồi yêu cầu.",
+    "d": "Dịch vụ bị sụp đổ hoàn toàn.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 201,
+    "question": "Mục đích chính của nhân bản dữ liệu là gì?",
+    "a": "Tiết kiệm chi phí",
+    "b": "Tăng tính sẵn sàng và hiệu năng",
+    "c": "Giảm dung lượng lưu trữ",
+    "d": "Đơn giản hóa quản lý",
+    "correct_answer": "B"
+  },
+  {
+    "id": 202,
+    "question": "Mô hình nhất quán nghiêm ngặt đòi hỏi điều gì?",
+    "a": "Thao tác được sắp xếp theo thời gian",
+    "b": "Không có xung đột",
+    "c": "Tất cả thao tác đọc trả về giá trị mới nhất",
+    "d": "Đồng bộ hoàn toàn",
+    "correct_answer": "C"
+  },
+  {
+    "id": 203,
+    "question": "Trong mô hình nhất quán tuần tự, điều kiện nào phải được đảm bảo?",
+    "a": "Thao tác thực hiện ngay lập tức",
+    "b": "Không có độ trễ",
+    "c": "Tất cả đều sai",
+    "d": "Tất cả tiến trình thấy cùng thứ tự thao tác",
+    "correct_answer": "D"
+  },
+  {
+    "id": 204,
+    "question": "Mô hình nhất quán nhân quả dựa trên nguyên tắc gì?",
+    "a": "Thời gian thực",
+    "b": "Quan hệ nguyên nhân - kết quả",
+    "c": "Thứ tự alphabet",
+    "d": "Địa chỉ IP",
+    "correct_answer": "B"
+  },
+  {
+    "id": 205,
+    "question": "Nhất quán yếu cho phép điều gì?",
+    "a": "Thao tác không đồng bộ giữa các điểm đồng bộ",
+    "b": "Tất cả thao tác đồng bộ",
+    "c": "Không có ràng buộc",
+    "d": "Chỉ thao tác đọc",
+    "correct_answer": "A"
+  },
+  {
+    "id": 206,
+    "question": "Trong mô hình nhất quán phát hành, khi nào dữ liệu được đồng bộ?",
+    "a": "Sau mỗi thao tác ghi",
+    "b": "Định kỳ",
+    "c": "Khi có yêu cầu",
+    "d": "Khi có lệnh acquire/release",
+    "correct_answer": "D"
+  },
+  {
+    "id": 207,
+    "question": "Mô hình nhất quán mục dữ liệu áp dụng cho loại dữ liệu nào?",
+    "a": "Dữ liệu có cấu trúc phức tạp",
+    "b": "Từng mục dữ liệu riêng lẻ",
+    "c": "Toàn bộ cơ sở dữ liệu",
+    "d": "Chỉ dữ liệu số",
+    "correct_answer": "B"
+  },
+  {
+    "id": 208,
+    "question": "Nhất quán sau cùng đảm bảo điều gì?",
+    "a": "Luôn nhất quán",
+    "b": "Không bao giờ nhất quán",
+    "c": "Dữ liệu sẽ nhất quán nếu không có cập nhật mới",
+    "d": "Nhất quán ngay lập tức",
+    "correct_answer": "C"
+  },
+  {
+    "id": 209,
+    "question": "Mô hình nhất quán đọc đều có đặc điểm gì?",
+    "a": "Tiến trình luôn thấy dữ liệu cập nhật hơn hoặc bằng lần đọc trước",
+    "b": "Đọc ngẫu nhiên",
+    "c": "Đọc theo thứ tự",
+    "d": "Đọc song song",
+    "correct_answer": "A"
+  },
+  {
+    "id": 210,
+    "question": "Nhất quán ghi đều đảm bảo điều gì?",
+    "a": "Ghi ngẫu nhiên",
+    "b": "Ghi của tiến trình được thấy theo đúng thứ tự",
+    "c": "Ghi song song",
+    "d": "Ghi tuần tự",
+    "correct_answer": "B"
+  },
+  {
+    "id": 211,
+    "question": "Mô hình nhất quán đọc kết quả ghi có nghĩa là gì?",
+    "a": "Đọc từ bản sao khác",
+    "b": "Đọc dữ liệu cũ",
+    "c": "Tiến trình thấy kết quả ghi của chính nó",
+    "d": "Đọc ngẫu nhiên",
+    "correct_answer": "C"
+  },
+  {
+    "id": 212,
+    "question": "Nhất quán ghi sau khi đọc ngăn ngừa điều gì?",
+    "a": "Đọc sau khi ghi",
+    "b": "Ghi đồng thời",
+    "c": "Đọc đồng thời",
+    "d": "Ghi vào vị trí vừa đọc bởi tiến trình khác",
+    "correct_answer": "D"
+  },
+  {
+    "id": 213,
+    "question": "Vị trí máy chủ bản sao được quyết định dựa trên yếu tố nào?",
+    "a": "Độ trễ mạng và tải hệ thống",
+    "b": "Giá thành",
+    "c": "Dung lượng",
+    "d": "Tốc độ CPU",
+    "correct_answer": "A"
+  },
+  {
+    "id": 214,
+    "question": "Nhân bản nội dung tĩnh khác nhân bản động ở điểm nào?",
+    "a": "Tốc độ khác nhau",
+    "b": "Nội dung không thay đổi vs thay đổi thường xuyên",
+    "c": "Vị trí khác nhau",
+    "d": "Không có sự khác biệt",
+    "correct_answer": "B"
+  },
+  {
+    "id": 215,
+    "question": "Phương pháp đẩy trong phân phát cập nhật có đặc điểm gì?",
+    "a": "Máy khách yêu cầu cập nhật",
+    "b": "Cập nhật tự động",
+    "c": "Máy chủ chủ động gửi cập nhật",
+    "d": "Không cập nhật",
+    "correct_answer": "C"
+  },
+  {
+    "id": 216,
+    "question": "Phương pháp kéo trong phân phát cập nhật hoạt động như thế nào?",
+    "a": "Máy chủ tự động gửi",
+    "b": "Cập nhật ngẫu nhiên",
+    "c": "Không có cập nhật",
+    "d": "Máy khách yêu cầu cập nhật",
+    "correct_answer": "D"
+  },
+  {
+    "id": 217,
+    "question": "Lan truyền cập nhật dựa trên thông báo có ưu điểm gì?",
+    "a": "Tiết kiệm băng thông",
+    "b": "Tốc độ nhanh",
+    "c": "Đơn giản",
+    "d": "Chính xác cao",
+    "correct_answer": "A"
+  },
+  {
+    "id": 218,
+    "question": "Giao thức nhất quán liên tục sử dụng giới hạn nào?",
+    "a": "Chỉ thời gian",
+    "b": "Sai số, chênh lệch trạng thái, độ lệch thứ tự",
+    "c": "Chỉ không gian",
+    "d": "Chỉ số lượng",
+    "correct_answer": "B"
+  },
+  {
+    "id": 219,
+    "question": "Trong giao thức ghi từ xa, thao tác ghi được thực hiện ở đâu?",
+    "a": "Trên máy khách",
+    "b": "Trên tất cả máy chủ",
+    "c": "Trên máy chủ bản chính từ xa",
+    "d": "Trên máy chủ gần nhất",
+    "correct_answer": "C"
+  },
+  {
+    "id": 220,
+    "question": "Giao thức ghi cục bộ có ưu điểm gì?",
+    "a": "Tăng tính nhất quán",
+    "b": "Giảm phức tạp",
+    "c": "Tiết kiệm băng thông",
+    "d": "Giảm độ trễ cho thao tác ghi",
+    "correct_answer": "D"
+  },
+  {
+    "id": 221,
+    "question": "Nhân bản tích cực có nghĩa là gì?",
+    "a": "Tất cả bản sao đều xử lý thao tác ghi",
+    "b": "Chỉ một bản sao xử lý",
+    "c": "Xử lý tuần tự",
+    "d": "Không xử lý",
+    "correct_answer": "A"
+  },
+  {
+    "id": 222,
+    "question": "Giao thức dựa trên đại diện hoạt động như thế nào?",
+    "a": "Tất cả xử lý đồng thời",
+    "b": "Một bản sao đại diện xử lý và lan truyền",
+    "c": "Xử lý ngẫu nhiên",
+    "d": "Không có đại diện",
+    "correct_answer": "B"
+  },
+  {
+    "id": 223,
+    "question": "Giao thức gắn kết bộ nhớ cache giải quyết vấn đề gì?",
+    "a": "Tăng tốc độ",
+    "b": "Giảm dung lượng",
+    "c": "Đảm bảo tính nhất quán của cache",
+    "d": "Đơn giản hóa",
+    "correct_answer": "C"
+  },
+  {
+    "id": 224,
+    "question": "Cài đặt nhất quán lấy máy khách làm trung tâm phù hợp khi nào?",
+    "a": "Khi máy chủ cố định",
+    "b": "Khi mạng ổn định",
+    "c": "Khi dữ liệu ít",
+    "d": "Khi máy khách di động",
+    "correct_answer": "D"
+  },
+  {
+    "id": 225,
+    "question": "Vector đồng hồ trong nhất quán được sử dụng để làm gì?",
+    "a": "Xác định thứ tự thao tác",
+    "b": "Đo thời gian",
+    "c": "Đếm số lượng",
+    "d": "Tính toán khoảng cách",
+    "correct_answer": "A"
+  },
+  {
+    "id": 226,
+    "question": "Trong mô hình nhất quán hàng đợi, thao tác được sắp xếp như thế nào?",
+    "a": "Theo thứ tự LIFO",
+    "b": "Theo thứ tự FIFO",
+    "c": "Ngẫu nhiên",
+    "d": "Theo ưu tiên",
+    "correct_answer": "B"
+  },
+  {
+    "id": 227,
+    "question": "Tuyến tính hóa trong nhất quán tuần tự có nghĩa là gì?",
+    "a": "Thao tác tuần tự",
+    "b": "Thao tác song song",
+    "c": "Thao tác có thể sắp xếp theo thời gian thực",
+    "d": "Thao tác ngẫu nhiên",
+    "correct_answer": "C"
+  },
+  {
+    "id": 228,
+    "question": "Điểm đồng bộ trong nhất quán yếu được sử dụng để làm gì?",
+    "a": "Tăng tốc độ",
+    "b": "Giảm tải",
+    "c": "Đơn giản hóa",
+    "d": "Đảm bảo tất cả thao tác trước đó hoàn thành",
+    "correct_answer": "D"
+  },
+  {
+    "id": 229,
+    "question": "Trong nhất quán phát hành, acquire có tác dụng gì?",
+    "a": "Đảm bảo thấy tất cả thao tác trước đó",
+    "b": "Tăng tốc độ",
+    "c": "Giảm tải",
+    "d": "Khóa dữ liệu",
+    "correct_answer": "A"
+  },
+  {
+    "id": 230,
+    "question": "Release trong nhất quán phát hành có nghĩa là gì?",
+    "a": "Mở khóa",
+    "b": "Đảm bảo thao tác cục bộ được lan truyền",
+    "c": "Tăng tốc độ",
+    "d": "Giảm tải",
+    "correct_answer": "B"
+  },
+  {
+    "id": 231,
+    "question": "Nhất quán mục dữ liệu cho phép điều gì?",
+    "a": "Nhất quán giống nhau",
+    "b": "Không có nhất quán",
+    "c": "Nhất quán khác nhau cho từng mục",
+    "d": "Nhất quán tùy ý",
+    "correct_answer": "C"
+  },
+  {
+    "id": 232,
+    "question": "Gắn kết trong nhất quán có nghĩa là gì?",
+    "a": "Tốc độ mạng",
+    "b": "Dung lượng bộ nhớ",
+    "c": "Số lượng máy chủ",
+    "d": "Mức độ đồng bộ giữa các bản sao",
+    "correct_answer": "D"
+  },
+  {
+    "id": 233,
+    "question": "Nhất quán đọc đều ngăn ngừa hiện tượng gì?",
+    "a": "Đọc dữ liệu cũ hơn lần đọc trước",
+    "b": "Đọc nhanh",
+    "c": "Đọc chậm",
+    "d": "Đọc sai",
+    "correct_answer": "A"
+  },
+  {
+    "id": 234,
+    "question": "Trong nhất quán ghi đều, điều gì được đảm bảo?",
+    "a": "Tốc độ ghi",
+    "b": "Thứ tự ghi của cùng một tiến trình",
+    "c": "Dung lượng ghi",
+    "d": "Vị trí ghi",
+    "correct_answer": "B"
+  },
+  {
+    "id": 235,
+    "question": "Nhất quán đọc kết quả ghi ngăn ngừa điều gì?",
+    "a": "Đọc nhanh",
+    "b": "Ghi chậm",
+    "c": "Tiến trình không thấy kết quả ghi của chính nó",
+    "d": "Lỗi mạng",
+    "correct_answer": "C"
+  },
+  {
+    "id": 236,
+    "question": "Nhất quán ghi sau khi đọc có tác dụng gì?",
+    "a": "Tăng tốc độ",
+    "b": "Giảm lỗi",
+    "c": "Đơn giản hóa",
+    "d": "Ngăn ghi đè lên dữ liệu vừa đọc",
+    "correct_answer": "D"
+  },
+  {
+    "id": 237,
+    "question": "Máy chủ bản sao nên được đặt ở đâu?",
+    "a": "Gần người dùng để giảm độ trễ",
+    "b": "Ở trung tâm dữ liệu",
+    "c": "Ở vị trí an toàn",
+    "d": "Ở vị trí rẻ nhất",
+    "correct_answer": "A"
+  },
+  {
+    "id": 238,
+    "question": "Nhân bản theo yêu cầu có đặc điểm gì?",
+    "a": "Luôn tạo bản sao",
+    "b": "Tạo bản sao khi có nhu cầu",
+    "c": "Không tạo bản sao",
+    "d": "Tạo bản sao ngẫu nhiên",
+    "correct_answer": "B"
+  },
+  {
+    "id": 239,
+    "question": "CDN (Content Delivery Network) sử dụng nguyên tắc gì?",
+    "a": "Tập trung tại một máy chủ",
+    "b": "Phân phát ngẫu nhiên",
+    "c": "Phân phát nội dung từ máy chủ gần nhất",
+    "d": "Không phân phát",
+    "correct_answer": "C"
+  },
+  {
+    "id": 240,
+    "question": "Trong phân phát cập nhật, trạng thái vs thao tác khác nhau như thế nào?",
+    "a": "Không có sự khác biệt",
+    "b": "Tốc độ khác nhau",
+    "c": "Vị trí khác nhau",
+    "d": "Gửi toàn bộ dữ liệu vs chỉ gửi thay đổi",
+    "correct_answer": "D"
+  },
+  {
+    "id": 241,
+    "question": "Phương pháp đẩy phù hợp khi nào?",
+    "a": "Khi tỷ lệ đọc/ghi cao",
+    "b": "Khi tỷ lệ đọc/ghi thấp",
+    "c": "Khi mạng chậm",
+    "d": "Khi dữ liệu lớn",
+    "correct_answer": "A"
+  },
+  {
+    "id": 242,
+    "question": "Phương pháp kéo phù hợp trong trường hợp nào?",
+    "a": "Khi tỷ lệ đọc/ghi cao",
+    "b": "Khi tỷ lệ đọc/ghi thấp",
+    "c": "Khi mạng nhanh",
+    "d": "Khi dữ liệu nhỏ",
+    "correct_answer": "B"
+  },
+  {
+    "id": 243,
+    "question": "Lan truyền cập nhật không hợp lệ có ưu điểm gì?",
+    "a": "Chứa đầy đủ dữ liệu",
+    "b": "Phức tạp",
+    "c": "Thông báo ngắn gọn",
+    "d": "Chậm",
+    "correct_answer": "C"
+  },
+  {
+    "id": 244,
+    "question": "Giới hạn sai số trong nhất quán liên tục đo lường điều gì?",
+    "a": "Thời gian",
+    "b": "Khoảng cách",
+    "c": "Số lượng",
+    "d": "Độ lệch giá trị giữa các bản sao",
+    "correct_answer": "D"
+  },
+  {
+    "id": 245,
+    "question": "Giới hạn chênh lệch trạng thái kiểm soát điều gì?",
+    "a": "Số thao tác chưa được lan truyền",
+    "b": "Thời gian chờ",
+    "c": "Dung lượng dữ liệu",
+    "d": "Số lượng máy chủ",
+    "correct_answer": "A"
+  },
+  {
+    "id": 246,
+    "question": "Giới hạn độ lệch thứ tự đo lường gì?",
+    "a": "Tốc độ thực hiện",
+    "b": "Sự khác biệt trong thứ tự thao tác",
+    "c": "Dung lượng bộ nhớ",
+    "d": "Số lượng lỗi",
+    "correct_answer": "B"
+  },
+  {
+    "id": 247,
+    "question": "Giao thức ghi từ xa có nhược điểm gì?",
+    "a": "Phức tạp",
+    "b": "Tốn băng thông",
+    "c": "Độ trễ cao cho thao tác ghi",
+    "d": "Khó cài đặt",
+    "correct_answer": "C"
+  },
+  {
+    "id": 248,
+    "question": "Giao thức ghi cục bộ có thể gây ra vấn đề gì?",
+    "a": "Chậm",
+    "b": "Tốn bộ nhớ",
+    "c": "Khó sử dụng",
+    "d": "Xung đột khi nhiều bản sao cùng ghi",
+    "correct_answer": "D"
+  },
+  {
+    "id": 249,
+    "question": "Nhân bản tích cực có nhược điểm gì?",
+    "a": "Phức tạp trong việc đồng bộ",
+    "b": "Chậm",
+    "c": "Tốn bộ nhớ",
+    "d": "Khó cài đặt",
+    "correct_answer": "A"
+  },
+  {
+    "id": 250,
+    "question": "Cache coherence protocol giải quyết vấn đề gì?",
+    "a": "Tăng tốc độ",
+    "b": "Đảm bảo tính nhất quán của bộ nhớ cache",
+    "c": "Giảm dung lượng",
+    "d": "Đơn giản hóa",
+    "correct_answer": "B"
+  },
+  {
+    "id": 251,
+    "question": "Theo giáo trình, ba yêu cầu cơ bản của bảo mật thông tin là gì?",
+    "a": "Mã hóa, Giải mã, và Băm.",
+    "b": "Tường lửa, Chống virus, và Sao lưu.",
+    "c": "Tính bí mật (Confidentiality), Tính toàn vẹn (Integrity), và Tính sẵn sàng (Availability).",
+    "d": "Xác thực, Ủy quyền, và Ghi nhật ký.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 252,
+    "question": "Hiểm họa bảo mật nào mô tả hành động một đối tượng không có thẩm quyền giành được quyền truy nhập vào dịch vụ hoặc dữ liệu?",
+    "a": "Chặn thông điệp (Interception).",
+    "b": "Sửa đổi (Modification).",
+    "c": "Bịa đặt (Fabrication).",
+    "d": "Làm gián đoạn (Interruption).",
+    "correct_answer": "A"
+  },
+  {
+    "id": 253,
+    "question": "Tấn công từ chối dịch vụ phân tán (DDoS) thực hiện bằng cách nào?",
+    "a": "Nghe lén thông tin trên đường truyền mạng.",
+    "b": "Sử dụng một lượng lớn máy tính bị chiếm quyền để đồng loạt gửi yêu cầu tới một mục tiêu, làm tê liệt dịch vụ.",
+    "c": "Cài đặt virus vào máy chủ để xóa dữ liệu.",
+    "d": "Đoán mật khẩu của người quản trị hệ thống.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 254,
+    "question": "Giải thuật mã hóa nào thuộc loại mã hóa bất đối xứng (khóa công khai)?",
+    "a": "DES (Data Encryption Standard).",
+    "b": "MD5 (Message-Digest 5).",
+    "c": "AES (Advanced Encryption Standard).",
+    "d": "RSA (Rivest, Shamir, Adleman).",
+    "correct_answer": "D"
+  },
+  {
+    "id": 255,
+    "question": "Chữ ký số (Digital Signature) được tạo ra nhằm mục đích chính là gì?",
+    "a": "Đảm bảo tính toàn vẹn của thông điệp và tính chống chối bỏ của người gửi.",
+    "b": "Giảm kích thước của thông điệp trước khi gửi.",
+    "c": "Che giấu địa chỉ IP của người gửi.",
+    "d": "Chỉ để mã hóa toàn bộ thông điệp.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 256,
+    "question": "Trong kiến trúc của Kerberos, thành phần nào chịu trách nhiệm xác thực người dùng khi họ đăng nhập lần đầu?",
+    "a": "Dịch vụ cấp thẻ (Ticket-Granting Service - TGS).",
+    "b": "Máy chủ ứng dụng (Application Server).",
+    "c": "Máy chủ xác thực (Authentication Server - AS).",
+    "d": "Trung tâm phân phối khóa (Key Distribution Center - KDC).",
+    "correct_answer": "C"
+  },
+  {
+    "id": 257,
+    "question": "Ma trận kiểm soát truy nhập (Access Control Matrix) được dùng để làm gì?",
+    "a": "Ghi lại nhật ký tất cả các cuộc tấn công.",
+    "b": "Xác định các quyền mà một chủ thể (subject) được phép thực hiện trên một đối tượng (object).",
+    "c": "Lưu trữ tất cả các khóa bí mật của hệ thống.",
+    "d": "Mã hóa và giải mã các gói tin trên mạng.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 258,
+    "question": "Kỹ thuật \"hộp cát\" (sandbox) được sử dụng để bảo vệ máy tính khỏi mối đe dọa nào?",
+    "a": "Các đoạn mã di động (mobile code) không đáng tin cậy tải về từ mạng.",
+    "b": "Lỗi phần cứng của máy chủ.",
+    "c": "Mất điện đột ngột.",
+    "d": "Các cuộc tấn công từ chối dịch vụ (DoS).",
+    "correct_answer": "A"
+  },
+  {
+    "id": 259,
+    "question": "Giao thức trao đổi khóa Diffie-Hellman cho phép hai bên thực hiện điều gì?",
+    "a": "Thiết lập một khóa bí mật chung qua một kênh truyền không an toàn.",
+    "b": "Nén dữ liệu trước khi truyền đi.",
+    "c": "Ký số vào một văn bản điện tử.",
+    "d": "Trao đổi khóa công khai một cách bí mật.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 260,
+    "question": "Danh sách thu hồi chứng chỉ (Certificate Revocation List - CRL) có công dụng gì?",
+    "a": "Liệt kê tất cả các chứng chỉ đã được cấp phát.",
+    "b": "Lưu trữ khóa riêng của tất cả người dùng.",
+    "c": "Công bố danh sách các chứng chỉ số không còn hợp lệ trước khi chúng hết hạn.",
+    "d": "Cung cấp danh sách các trang web độc hại.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 261,
+    "question": "\"Ủy nhiệm\" (Delegation) trong quản lý bảo mật có nghĩa là gì?",
+    "a": "Sao chép dữ liệu từ máy chủ này sang máy chủ khác.",
+    "b": "Một tiến trình tạm thời trao quyền truy nhập của mình cho một tiến trình khác.",
+    "c": "Một máy chủ từ chối yêu cầu của máy khách.",
+    "d": "Người quản trị gán quyền vĩnh viễn cho một người dùng.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 262,
+    "question": "Hàm băm (ví dụ MD5) có đặc tính quan trọng nào?",
+    "a": "Là hàm một chiều, dễ tính toán giá trị băm từ thông điệp nhưng gần như không thể tìm lại thông điệp từ giá trị băm.",
+    "b": "Luôn tạo ra giá trị băm dài hơn thông điệp gốc.",
+    "c": "Là hàm hai chiều, có thể đảo ngược để tìm lại thông điệp gốc.",
+    "d": "Yêu cầu một khóa bí mật để thực hiện.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 263,
+    "question": "Trong các giao thức xác thực, việc sử dụng một số ngẫu nhiên (nonce) trong các thông điệp thử thách-hồi đáp nhằm mục đích gì?",
+    "a": "Chống lại các cuộc tấn công phát lại (replay attack).",
+    "b": "Để mã hóa thông điệp.",
+    "c": "Để xác định phiên bản của giao thức.",
+    "d": "Để giảm độ trễ của mạng.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 264,
+    "question": "Một \"Tường lửa\" (Firewall) lọc gói tin hoạt động dựa trên thông tin nào?",
+    "a": "Chữ ký số của người gửi.",
+    "b": "Kích thước của gói tin.",
+    "c": "Địa chỉ IP nguồn/đích và số hiệu cổng của gói tin.",
+    "d": "Nội dung của tầng ứng dụng trong gói tin.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 265,
+    "question": "Khái niệm \"cơ sở tính toán tin cậy\" (Trusted Computing Base - TCB) đề cập đến điều gì?",
+    "a": "Là một nhóm người dùng được cấp quyền cao nhất.",
+    "b": "Là một thuật toán mã hóa không thể bị bẻ khóa.",
+    "c": "Là một máy chủ duy nhất chứa toàn bộ dữ liệu của hệ thống.",
+    "d": "Là tập hợp tất cả các cơ chế bảo mật cần thiết để thực thi chính sách bảo mật và bản thân chúng phải được tin cậy.",
+    "correct_answer": "D"
+  },
+  {
+    "id": 266,
+    "question": "Khi sử dụng mã hóa khóa công khai để gửi một thông điệp bí mật từ A đến B, bên A sẽ sử dụng khóa nào?",
+    "a": "Khóa riêng của A (K-A).",
+    "b": "Khóa công khai của B (K+B).",
+    "c": "Khóa công khai của A (K+A).",
+    "d": "Khóa riêng của B (K-B).",
+    "correct_answer": "B"
+  },
+  {
+    "id": 267,
+    "question": "Tấn công \"đóng vai trung gian\" (man-in-the-middle) là hình thức tấn công như thế nào?",
+    "a": "Kẻ tấn công cài đặt phần mềm độc hại lên máy nạn nhân.",
+    "b": "Kẻ tấn công đoán mật khẩu của người dùng.",
+    "c": "Kẻ tấn công gửi một lượng lớn yêu cầu để làm tê liệt dịch vụ.",
+    "d": "Kẻ tấn công bí mật chặn và có thể sửa đổi thông điệp giữa hai bên mà họ không biết.",
+    "correct_answer": "D"
+  },
+  {
+    "id": 268,
+    "question": "Phương pháp bảo vệ mã di động nào liên quan đến việc kiểm tra xem mã tải về có tuân thủ các quy tắc bảo mật hay không, ví dụ như không chứa các chỉ thị lệnh bất hợp pháp?",
+    "a": "Trình kiểm tra mã byte (Bytecode verifier).",
+    "b": "Trình quản lý bảo mật (Security manager).",
+    "c": "Kỹ thuật sân chơi (Playground).",
+    "d": "Thành phần nạp lớp (Class loader).",
+    "correct_answer": "A"
+  },
+  {
+    "id": 269,
+    "question": "Trong hệ thống Kerberos, \"thẻ\" (ticket) mà dịch vụ TGS cấp cho máy khách có mục đích gì?",
+    "a": "Để cấp địa chỉ IP động cho máy khách.",
+    "b": "Để lưu trữ vĩnh viễn mật khẩu của người dùng.",
+    "c": "Để máy khách dùng nó xác thực với một máy chủ ứng dụng cụ thể mà không cần liên hệ lại với AS hay TGS.",
+    "d": "Để mã hóa toàn bộ ổ cứng của máy khách.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 270,
+    "question": "Danh sách kiểm soát truy nhập (Access Control List - ACL) là một cách triển khai của ma trận kiểm soát truy nhập, trong đó nó được phân tán theo chiều nào?",
+    "a": "Theo hàng (mỗi chủ thể có một danh sách các khả năng).",
+    "b": "Theo đường chéo.",
+    "c": "Theo cột (mỗi đối tượng có một danh sách các chủ thể và quyền của họ).",
+    "d": "Không phân tán.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 271,
+    "question": "Trong bảo mật nhóm, để một thành viên mới tham gia vào nhóm một cách an toàn, thành viên hiện tại của nhóm cần làm gì đầu tiên khi nhận được yêu cầu?",
+    "a": "Hỏi ý kiến của tất cả người dùng trong hệ thống.",
+    "b": "Cấp ngay lập tức khóa bí mật của nhóm cho tiến trình mới.",
+    "c": "Từ chối tất cả các yêu cầu từ các tiến trình lạ.",
+    "d": "Xác thực tiến trình yêu cầu tham gia, thường thông qua chứng chỉ.",
+    "correct_answer": "D"
+  },
+  {
+    "id": 272,
+    "question": "Tại sao một khóa phiên (session key) lại được ưa chuộng hơn việc sử dụng một khóa bí mật dài hạn cho toàn bộ quá trình truyền thông?",
+    "a": "Khóa phiên không cần phải được trao đổi giữa hai bên.",
+    "b": "Nếu khóa phiên bị lộ, kẻ tấn công chỉ có thể giải mã được các thông điệp trong phiên đó, không ảnh hưởng đến các phiên trước hoặc sau.",
+    "c": "Khóa phiên có thể được sử dụng cho nhiều cặp đối tượng khác nhau.",
+    "d": "Khóa phiên dễ nhớ hơn khóa dài hạn.",
+    "correct_answer": "B"
+  },
+  {
+    "id": 273,
+    "question": "Để chống lại tấn công thăm dò bằng cách quét cổng, người quản trị mạng nên làm gì?",
+    "a": "Tăng dung lượng bộ nhớ của máy chủ.",
+    "b": "Cài đặt nhiều phần mềm chống virus.",
+    "c": "Thường xuyên thay đổi địa chỉ IP của máy chủ.",
+    "d": "Sử dụng tường lửa để chỉ mở những cổng dịch vụ cần thiết và đóng tất cả các cổng còn lại.",
+    "correct_answer": "D"
+  },
+  {
+    "id": 274,
+    "question": "Khái niệm \"tính toàn vẹn\" (integrity) trong bảo mật có nghĩa là gì?",
+    "a": "Đảm bảo hệ thống luôn sẵn sàng hoạt động.",
+    "b": "Đảm bảo có thể phục hồi dữ liệu sau khi bị xóa.",
+    "c": "Đảm bảo dữ liệu chỉ được đọc bởi những người/tiến trình được ủy quyền.",
+    "d": "Đảm bảo dữ liệu chỉ có thể được thay đổi bởi những người/tiến trình được ủy quyền.",
+    "correct_answer": "D"
+  },
+  {
+    "id": 275,
+    "question": "Giao thức Needham-Schroeder được thiết kế để giải quyết vấn đề gì?",
+    "a": "Điều khiển tương tranh trong cơ sở dữ liệu phân tán.",
+    "b": "Nén dữ liệu để truyền nhanh hơn trên mạng.",
+    "c": "Xác thực và phân phối khóa phiên một cách an toàn với sự trợ giúp của một bên thứ ba tin cậy (KDC).",
+    "d": "Phục hồi hệ thống sau khi bị sụp đổ.",
+    "correct_answer": "C"
+  },
+  {
+    "id": 276,
+    "question": "Việc một chương trình mã di động chỉ được phép thiết lập kết nối mạng về máy chủ nguồn gốc của nó là một chính sách được thực thi bởi thành phần nào trong hộp cát Java?",
+    "a": "Máy ảo Java (JVM).",
+    "b": "Thành phần nạp lớp (Class Loader).",
+    "c": "Trình kiểm tra mã byte (Bytecode Verifier).",
+    "d": "Trình quản lý bảo mật (Security Manager).",
+    "correct_answer": "D"
+  },
+  {
+    "id": 277,
+    "question": "Một \"đại diện\" (proxy) trong quản lý ủy quyền là gì?",
+    "a": "Là một máy chủ trung gian chuyển tiếp tất cả các yêu cầu.",
+    "b": "Là một bản sao đầy đủ của tiến trình gốc.",
+    "c": "Là một thuật toán mã hóa đặc biệt.",
+    "d": "Là một \"thẻ\" cho phép chủ sở hữu của nó thực hiện các thao tác với những quyền hạn chế mà chủ thể gốc đã cấp.",
+    "correct_answer": "D"
+  },
+  {
+    "id": 278,
+    "question": "Để tạo chữ ký số cho một thông điệp lớn một cách hiệu quả, người ta thường làm gì?",
+    "a": "Ký trên bản thu gọn (message digest) của thông điệp được tạo bởi hàm băm, thay vì ký trên toàn bộ thông điệp.",
+    "b": "Chỉ ký vào 128 bit đầu tiên của thông điệp.",
+    "c": "Yêu cầu bên nhận tự tạo chữ ký.",
+    "d": "Chia thông điệp thành nhiều phần nhỏ và ký riêng cho từng phần.",
+    "correct_answer": "A"
+  },
+  {
+    "id": 279,
+    "question": "Việc kiểm tra quyền thực thi của một chuỗi các lời gọi phương thức lồng nhau (ví dụ O1 gọi O2) trong Java được thực hiện hiệu quả bằng kỹ thuật nào?",
+    "a": "Tham chiếu đối tượng.",
+    "b": "Kiểm tra tại thời điểm biên dịch.",
+    "c": "Sử dụng tường lửa.",
+    "d": "Kiểm tra bên trong ngăn xếp (Stack inspection).",
+    "correct_answer": "D"
+  },
+  {
+    "id": 280,
+    "question": "Trong hệ thống khóa công khai, Cơ quan chứng nhận (Certificate Authority - CA) có vai trò chính là gì?",
+    "a": "Xác nhận và ký lên các chứng chỉ để đảm bảo mối liên kết giữa một khóa công khai và một thực thể là đúng.",
+    "b": "Phân phát khóa phiên cho các giao dịch.",
+    "c": "Tạo ra các cặp khóa công khai/khóa riêng cho người dùng.",
+    "d": "Lưu trữ tất cả các khóa riêng của hệ thống.",
+    "correct_answer": "A"
+  }
+]

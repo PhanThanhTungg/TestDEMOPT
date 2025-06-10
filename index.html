@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <div class="container">
+      <div class="header">
+        <h1>Tung test</h1>
+      </div>
+
+      <div class="question-container" id="questionContainer">
+        <!-- Questions will be rendered here -->
+      </div>
+
+      <div class="stats">
+        <p>Tổng số câu hỏi: <span id="totalQuestions">0</span></p>
+      </div>
+    </div>
+
+    <div class="notes-panel">
+      <div class="notes-header">
+        <h2>📝 Câu đã note</h2>
+      </div>
+      
+      <div class="notes-count">
+        <p>Số câu đã note: <span id="notedCount">0</span></p>
+      </div>
+
+      <div class="notes-list" id="notesList">
+        <div class="empty-notes">
+          Chưa có câu nào được note
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
