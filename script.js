@@ -2,15 +2,55 @@
 let questions = [];
 let notedQuestions = new Set();
 
+// Load noted questions from cookie
+function loadNotedQuestions() {
+  const savedNotes = getCookie('notedQuestions');
+  if (savedNotes) {
+    try {
+      const notedIds = JSON.parse(savedNotes);
+      notedQuestions = new Set(notedIds);
+    } catch (error) {
+      console.error('Error parsing noted questions from cookie:', error);
+      notedQuestions = new Set();
+    }
+  }
+}
+
+// Save noted questions to cookie
+function saveNotedQuestions() {
+  const notedIds = Array.from(notedQuestions);
+  setCookie('notedQuestions', JSON.stringify(notedIds), 365);
+}
+
+// Cookie helper functions
+function setCookie(name, value, days) {
+  const expires = new Date();
+  expires.setTime(expires.getTime() + (days * 24 * 60 * 60 * 1000));
+  document.cookie = `${name}=${value};expires=${expires.toUTCString()};path=/`;
+}
+
+function getCookie(name) {
+  const nameEQ = name + "=";
+  const ca = document.cookie.split(';');
+  for (let i = 0; i < ca.length; i++) {
+    let c = ca[i];
+    while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+
 // Load questions from output.json
 fetch('output.json')
   .then(response => response.json())
   .then(data => {
     questions = data;
+    loadNotedQuestions(); // Load saved notes before rendering
     renderQuestions();
   })
   .catch(error => {
     console.error('Error loading questions:', error);
+    loadNotedQuestions(); // Load saved notes even if questions fail
     renderQuestions();
   });
 
@@ -25,10 +65,15 @@ function renderQuestions() {
     questionDiv.className = 'question';
     questionDiv.id = `question-${question.id}`;
 
+    // Check if this question is noted
+    if (notedQuestions.has(question.id)) {
+      questionDiv.classList.add('noted');
+    }
+
     const correctLetter = question.correct_answer.toLowerCase();
 
     questionDiv.innerHTML = `
-          <button class="note-button" onclick="toggleNote(${question.id})" title="Note câu hỏi này">📝</button>
+          <button class="note-button ${notedQuestions.has(question.id) ? 'noted' : ''}" onclick="toggleNote(${question.id})" title="Note câu hỏi này">📝</button>
           <div class="question-number">Câu ${question.id}</div>
           <div class="question-text">${question.question}</div>
           <ul class="options">
@@ -53,6 +98,8 @@ function renderQuestions() {
 
     container.appendChild(questionDiv);
   });
+
+  updateNotesList();
 }
 
 function toggleNote(questionId) {
@@ -69,6 +116,7 @@ function toggleNote(questionId) {
     noteButton.classList.add('noted');
   }
 
+  saveNotedQuestions(); // Save to cookie
   updateNotesList();
 }
 
@@ -112,4 +160,8 @@ function scrollToQuestion(questionId) {
 }
 
 // Initialize the quiz when page loads
-document.addEventListener('DOMContentLoaded', renderQuestions);
+document.addEventListener('DOMContentLoaded', () => {
+  loadNotedQuestions();
+  renderQuestions();
+});
+
